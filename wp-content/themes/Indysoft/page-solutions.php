@@ -25,18 +25,18 @@ get_header();
 </head>
 
 <!-- Solutions Hero Section -->
-<section class="solutions-hero position-relative w-100 d-flex flex-column align-items-center py-5" style="padding:80px 0;">
-  <div class="container" style="max-width:1500px;">
+<section class="solutions-hero position-relative w-100 d-flex flex-column align-items-center py-5">
+  <div class="container">
     
     <!-- Title Section -->
     <div class="row justify-content-center text-center mb-5">
       <div class="col-12">
-        <h1 class="m-0 mb-4" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1.1;color:#003040;letter-spacing:-1.8px;">
+        <h1 class="m-0 mb-4">
           Powerful. Flexible. Complete.
         </h1>
         <div class="row justify-content-center">
           <div class="col-12 col-lg-8">
-            <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#1C5263;">
+            <p class="m-0">
               IndySoft is the all-in-one platform for Calibration, Tooling, Maintenance, and Asset Management—built to streamline compliance, eliminate downtime, and integrate seamlessly with your existing tools. Designed for regulated industries, IndySoft gives you a single source of truth for every asset across its lifecycle.
             </p>
           </div>
@@ -47,36 +47,8 @@ get_header();
   </div>
 </section>
 
-<!-- Full Width Blue Section -->
-<style>
-/* Hover animations for feature items */
-.feature-item:hover {
-  opacity: 1 !important;
-}
-
-.feature-item:hover .arrow-icon {
-  opacity: 1 !important;
-  transform: rotate(45deg) translateX(2px);
-}
-
-/* Smooth transitions */
-.feature-item .arrow-icon {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.feature-item {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-</style>
-
-<style>
-@media(max-width:576px){
-  section{padding-top:60px!important;padding-bottom:60px!important;}
-}
-</style>
-
-<section class="position-relative w-100" style="background:#eef5ff;padding:60px 0;">
-  <div class="container" style="max-width:1500px;">
+<section class="solutions-specialties position-relative w-100">
+  <div class="container">
     <div class="row">
       
       <!-- Left Side - Content -->
@@ -84,7 +56,7 @@ get_header();
         
         <!-- Main Headline -->
         <div class="mb-5">
-          <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:40px;line-height:1.05;color:#003040;letter-spacing:-1.6px;max-width:582px;">
+          <h2 class="m-0">
             Explore our specialized solutions
           </h2>
         </div>
@@ -94,10 +66,9 @@ get_header();
           
           <!-- Calibration - Active -->
           <div class="feature-item d-flex align-items-center justify-content-between py-3 border-bottom hover-trigger active" 
-               data-category="calibration" 
-               style="border-bottom:1px solid rgba(7,112,252,0.3);cursor:pointer;transition:all 0.3s ease;">
+               data-category="calibration">
             <div class="d-flex align-items-center">
-              <div class="feature-icon me-3" style="width:34px;height:34px;">
+              <div class="feature-icon me-3">
               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1389_790)">
 <path d="M33.0039 16.0039H21.8797C21.4826 14.0553 19.9447 12.5174 17.9961 12.1203V0.996094C17.9961 0.44552 17.5506 0 17 0C16.4494 0 16.0039 0.44552 16.0039 0.996094V12.1203C14.0553 12.5174 12.5174 14.0553 12.1203 16.0039H0.996094C0.44552 16.0039 0 16.4494 0 17C0 17.5506 0.44552 17.9961 0.996094 17.9961H12.1203C12.5174 19.9447 14.0553 21.4826 16.0039 21.8797V33.0039C16.0039 33.5545 16.4494 34 17 34C17.5506 34 17.9961 33.5545 17.9961 33.0039V21.8797C19.9447 21.4826 21.4826 19.9447 21.8797 17.9961H33.0039C33.5545 17.9961 34 17.5506 34 17C34 16.4494 33.5545 16.0039 33.0039 16.0039Z" fill="#0770FC"/>
@@ -112,71 +83,68 @@ get_header();
     </clipPath>
   </defs>
 </svg>              </div>
-              <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Calibration</span>
+              <span>Calibration</span>
             </div>
 
             <!-- Custom Navigation Arrows -->
             <div class="custom-navigation">
-              <button class="swiper-button-prev-custom" style="background: none; border: none; pointer-events: auto; padding: 0; position:absolute; left:16px;">
+              <button class="swiper-button-prev-custom">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="40" height="40" rx="10" transform="matrix(-1 0 0 1 40 0)" fill="white"/>
                   <path d="M22.5 15L17.5 20L22.5 25V15Z" fill="#002E3E"/>
                 </svg>
               </button>
-              <button class="swiper-button-next-custom" style="background: none; border: none; pointer-events: auto; padding: 0; position:absolute; right:16px;">
+              <button class="swiper-button-next-custom">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="40" height="40" rx="10" fill="white"/>
                   <path d="M17.5 15L22.5 20L17.5 25V15Z" fill="#002E3D"/>
                 </svg>
               </button>
             </div>
-            <div class="arrow-icon" style="width:22px;height:22px;transform:rotate(45deg);opacity:0;transition:all 0.3s ease;">
-                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" style="width:16px;height:16px;object-fit:contain;" />
+            <div class="arrow-icon">
+                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" />
             </div>
           </div>
 
           <!-- Tooling -->
           <div class="feature-item d-flex align-items-center justify-content-between py-3 border-bottom hover-trigger" 
-               data-category="tooling" 
-               style="border-bottom:1px solid rgba(7,112,252,0.3);opacity:0.5;cursor:pointer;transition:all 0.3s ease;">
+               data-category="tooling">
             <div class="d-flex align-items-center">
-              <div class="feature-icon me-3" style="width:34px;height:34px;">
+              <div class="feature-icon me-3">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/assets/e2b81386ceb92794f139d41b3a9a8bf2fb963b90.svg" alt="Tooling" style="width:100%;height:100%;object-fit:contain;" />
               </div>
-              <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Tooling</span>
+              <span>Tooling</span>
             </div>
-            <div class="arrow-icon" style="width:22px;height:22px;transform:rotate(45deg);opacity:0;transition:all 0.3s ease;">
-                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" style="width:16px;height:16px;object-fit:contain;" />
+            <div class="arrow-icon">
+                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" />
             </div>
           </div>
 
           <!-- Maintenance Management -->
           <div class="feature-item d-flex align-items-center justify-content-between py-3 border-bottom hover-trigger" 
-               data-category="maintenance" 
-               style="border-bottom:1px solid rgba(7,112,252,0.3);opacity:0.5;cursor:pointer;transition:all 0.3s ease;">
+               data-category="maintenance">
             <div class="d-flex align-items-center">
-              <div class="feature-icon me-3" style="width:34px;height:34px;">
+              <div class="feature-icon me-3">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/assets/21b19dcbcf99c375674dff05c82420e775de19a9.svg" alt="Maintenance" style="width:100%;height:100%;object-fit:contain;" />
               </div>
-              <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Maintenance Management</span>
+              <span>Maintenance Management</span>
             </div>
-            <div class="arrow-icon" style="width:22px;height:22px;transform:rotate(45deg);opacity:0;transition:all 0.3s ease;">
-                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" style="width:16px;height:16px;object-fit:contain;" />
+            <div class="arrow-icon">
+                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" />
             </div>
           </div>
 
           <!-- Asset Management -->
           <div class="feature-item d-flex align-items-center justify-content-between py-3 hover-trigger" 
-               data-category="asset" 
-               style="opacity:0.5;cursor:pointer;transition:all 0.3s ease;">
+               data-category="asset">
             <div class="d-flex align-items-center">
-              <div class="feature-icon me-3" style="width:34px;height:34px;">
+              <div class="feature-icon me-3">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/assets/35e77743fdae5ae5db199d4fd1150c50a2100bb3.svg" alt="Asset Management" style="width:100%;height:100%;object-fit:contain;" />
               </div>
-              <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Asset Management</span>
+              <span>Asset Management</span>
             </div>
-            <div class="arrow-icon" style="width:22px;height:22px;transform:rotate(45deg);opacity:0;transition:all 0.3s ease;">
-                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" style="width:16px;height:16px;object-fit:contain;" />
+            <div class="arrow-icon">
+                              <img src="<?= get_stylesheet_directory_uri(); ?>/assets/2f871d61184dee2ed38b66a45adab93e17a1fcf4.svg" alt="Arrow" />
             </div>
           </div>
 
@@ -227,12 +195,11 @@ get_header();
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
                       <!-- Blue blur background -->
-                      <div style="position: absolute; background: rgba(7,112,252,0.15); filter: blur(21px); height: 265px; width: 320px; border-radius: 8px; top: 3px; left: 10px;"></div>
+                      <div class="solutions-blur-bg"></div>
                       <!-- Main image -->
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
-                           class="img-fluid position-relative" 
-                           style="width:344px;height:259px;border-radius:4px;object-fit:cover;" />
+                           class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
@@ -244,7 +211,7 @@ get_header();
                     <p style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#003040;margin-bottom:22px;max-width:344px;margin-left:auto;margin-right:auto;">
                       End-to-end traceability, compliance with ISO/IEC 17025, and complete control over your lab or multi-site operations
                     </p>
-                    <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:15px 24px;font-family:'elza',sans-serif;font-weight:600;font-size:15px;letter-spacing:-0.39px;">
+                    <button class="btn solutions-cta-button">
                       Request a Demo Today
                     </button>
                   </div>
@@ -288,12 +255,11 @@ get_header();
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
                       <!-- Blue blur background -->
-                      <div style="position: absolute; background: rgba(7,112,252,0.15); filter: blur(21px); height: 265px; width: 320px; border-radius: 8px; top: 3px; left: 10px;"></div>
+                      <div class="solutions-blur-bg"></div>
                       <!-- Main image -->
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
-                           class="img-fluid position-relative" 
-                           style="width:344px;height:259px;border-radius:4px;object-fit:cover;" />
+                           class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
@@ -305,7 +271,7 @@ get_header();
                     <p style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#003040;margin-bottom:22px;max-width:344px;margin-left:auto;margin-right:auto;">
                       End-to-end traceability, compliance with ISO/IEC 17025, and complete control over your lab or multi-site operations
                     </p>
-                    <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:15px 24px;font-family:'elza',sans-serif;font-weight:600;font-size:15px;letter-spacing:-0.39px;">
+                    <button class="btn solutions-cta-button">
                       Request a Demo Today
                     </button>
                   </div>
@@ -350,12 +316,11 @@ get_header();
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
                       <!-- Blue blur background -->
-                      <div style="position: absolute; background: rgba(7,112,252,0.15); filter: blur(21px); height: 265px; width: 320px; border-radius: 8px; top: 3px; left: 10px;"></div>
+                      <div class="solutions-blur-bg"></div>
                       <!-- Main image -->
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
-                           class="img-fluid position-relative" 
-                           style="width:344px;height:259px;border-radius:4px;object-fit:cover;" />
+                           class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
@@ -367,7 +332,7 @@ get_header();
                     <p style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#003040;margin-bottom:22px;max-width:344px;margin-left:auto;margin-right:auto;">
                       End-to-end traceability, compliance with ISO/IEC 17025, and complete control over your lab or multi-site operations
                     </p>
-                    <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:15px 24px;font-family:'elza',sans-serif;font-weight:600;font-size:15px;letter-spacing:-0.39px;">
+                    <button class="btn solutions-cta-button">
                       Request a Demo Today
                     </button>
                   </div>
@@ -411,12 +376,11 @@ get_header();
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
                       <!-- Blue blur background -->
-                      <div style="position: absolute; background: rgba(7,112,252,0.15); filter: blur(21px); height: 265px; width: 320px; border-radius: 8px; top: 3px; left: 10px;"></div>
+                      <div class="solutions-blur-bg"></div>
                       <!-- Main image -->
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
-                           class="img-fluid position-relative" 
-                           style="width:344px;height:259px;border-radius:4px;object-fit:cover;" />
+                           class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
@@ -428,7 +392,7 @@ get_header();
                     <p style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#003040;margin-bottom:22px;max-width:344px;margin-left:auto;margin-right:auto;">
                       End-to-end traceability, compliance with ISO/IEC 17025, and complete control over your lab or multi-site operations
                     </p>
-                    <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:15px 24px;font-family:'elza',sans-serif;font-weight:600;font-size:15px;letter-spacing:-0.39px;">
+                    <button class="btn solutions-cta-button">
                       Request a Demo Today
                     </button>
                   </div>
@@ -529,7 +493,7 @@ get_header();
 
 <!-- Why Leading Companies Choose IndySoft Section -->
 <section class="py-5" style="background: #ffffff; padding: 80px 0;">
-  <div class="container py-md-4" style="max-width:1500px;">
+  <div class="container py-md-4">
     <div class="row">
       <div class="col-12">
         
@@ -699,77 +663,41 @@ document.addEventListener('DOMContentLoaded', function() {
   
   featureItems.forEach(item => {
     item.addEventListener('mouseenter', function() {
-      // Remove active state from all items
       featureItems.forEach(otherItem => {
         otherItem.classList.remove('active');
         otherItem.style.opacity = '0.5';
       });
-      
-      // Add active state to hovered item
       this.classList.add('active');
       this.style.opacity = '1';
-      
-      // For now, using the same image for all categories
-      // In the future, you can switch images based on data-category
       const category = this.getAttribute('data-category');
-      
-      // Add fade effect to image
       softwareImage.style.opacity = '0.7';
-      setTimeout(() => {
-        softwareImage.style.opacity = '1';
-      }, 200);
-      
-      console.log('Hovering over:', category);
+      setTimeout(() => { softwareImage.style.opacity = '1'; }, 200);
     });
     
     item.addEventListener('mouseleave', function() {
-      // Reset to default state (Calibration active)
       featureItems.forEach(otherItem => {
         otherItem.classList.remove('active');
         otherItem.style.opacity = '0.5';
       });
-      
-      // Make first item (Calibration) active by default
       featureItems[0].classList.add('active');
       featureItems[0].style.opacity = '1';
-      
-      // Reset image
       softwareImage.style.opacity = '1';
     });
   });
 
-  // Initialize Swiper.js Mobile Carousel
   const mobileSwiper = new Swiper('.mobile-solutions-swiper', {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-custom',
-      prevEl: '.swiper-button-prev-custom',
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 0,
-      }
-    },
-
+    autoplay: { delay: 5000, disableOnInteraction: false },
+    navigation: { nextEl: '.swiper-button-next-custom', prevEl: '.swiper-button-prev-custom' },
+    breakpoints: { 768: { slidesPerView: 1, spaceBetween: 0 } },
   });
 
-
-
-
-
-  // Handle window resize for responsive behavior
   window.addEventListener('resize', function() {
     const isMobile = window.innerWidth <= 768;
     const mobileCarousel = document.querySelector('.mobile-carousel');
     const featuresList = document.querySelector('.features-list');
-    
     if (mobileCarousel && featuresList) {
       if (isMobile) {
         mobileCarousel.style.display = 'block';
@@ -784,12 +712,12 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!-- Testimonials Section -->
-<section class="testimonials-section position-relative w-100" style="padding:80px 0;">
-  <div class="container" style="max-width:1500px;">
+<section class="testimonials-section position-relative w-100">
+  <div class="container">
     
     <!-- Section Heading -->
     <div class="text-center mb-5">
-      <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">
+      <h2 class="m-0">
         What Our Customers Say
       </h2>
     </div>
@@ -797,7 +725,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <!-- Testimonial Card -->
     <div class="d-flex justify-content-center mb-5">
       <div class="testimonial-card d-flex flex-column align-items-center justify-content-center p-5" 
-           style="background:#ffffff;border:1px solid rgba(7,112,252,0.5);border-radius:0;width:100%;max-width:1500px;height:400px;box-shadow:none !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;">
+           style="border:1px solid rgba(7,112,252,0.5);border-radius:0;width:100%;max-width:1500px;height:400px;box-shadow:none !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;">
         
         <!-- Stars and Title -->
         <div class="text-center mb-4">
@@ -860,514 +788,18 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </section>
 
-<!-- Card Background Fixes -->
-<style>
-.testimonial-card {
-  background: #ffffff !important;
-  background-color: #ffffff !important;
-}
-
-.bg-white {
-  background: #ffffff !important;
-  background-color: #ffffff !important;
-}
-
-/* Force white backgrounds on info cards */
-.col-md-6 .bg-white {
-  background: #ffffff !important;
-  background-color: #ffffff !important;
-}
-
-<!-- Add responsive behavior for mobile -->
-<style>
-  /* Body max-width and overflow control */
-  body {
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
-  
-  /* Prevent horizontal scroll on all sections */
-  section {
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
-  
-  /* Container overflow control */
-  .container, .container-fluid {
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
-  
-  /* Fix mobile carousel overflow */
-  .mobile-carousel {
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
-  
-  .mobile-solutions-swiper {
-    overflow-x: hidden !important;
-    max-width: 100vw !important;
-  }
-  
-  /* Ensure all content stays within bounds */
-  .row {
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
-  
-  .col-12, .col-lg-6, .col-lg-5, .col-lg-1 {
-    overflow-x: hidden;
-    max-width: 100%;
-  }
-  
-  /* Page-level overflow control */
-  #page, .site {
-    overflow-x: hidden;
-    max-width: 100vw;
-  }
-  
-  /* Ensure no element breaks out of bounds */
-  * {
-    box-sizing: border-box;
-  }
-
-@media (max-width: 1450px) {
-  .testimonials-container {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 40px !important;
-    width: auto !important;
-  }
-  .testimonial-card {
-    width: 100% !important;
-    max-width: 691px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .testimonials-container {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 30px !important;
-    width: 100% !important;
-    padding: 0 20px !important;
-  }
-  .testimonial-card {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
-  
-  .container {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-  
-  .col-12.col-lg-5 {
-    max-width: 100% !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-  
-  .feature-item {
-    padding: 15px 0 !important;
-  }
-  
-  .software-preview {
-    margin-top: 2rem !important;
-  }
-
-  /* Mobile Carousel Styles */
-  .mobile-carousel {
-    display: block !important;
-  }
-  
-  /* Mobile Layout - Hide Desktop Elements */
-  .solutions-hero .features-list {
-    display: none !important;
-  }
-  
-  .solutions-hero .col-lg-5 {
-    display: none !important;
-  }
-  
-  .solutions-hero .col-lg-1 {
-    display: none !important;
-  }
-  
-  /* Mobile Layout - Full Width for Carousel */
-  .solutions-hero .col-12.col-lg-6 {
-    width: 100% !important;
-    max-width: 100% !important;
-    flex: 0 0 100% !important;
-  }
-  
-  /* Show Mobile Carousel on Mobile */
-  .mobile-carousel {
-    display: block !important;
-  }
-
-  /* Target ONLY the blue "Explore our specialized solutions" section on mobile */
-  section[style*="background:#eef5ff"] .features-list { 
-    display: none !important;
-  }
-  /* hide ONLY the right image column in the blue section */
-  section[style*="background:#eef5ff"] .col-lg-5.d-flex.flex-column.justify-content-center.px-4.mt-4.mt-lg-0 { 
-    display: none !important;
-  }
-  section[style*="background:#eef5ff"] .col-lg-1 { 
-    display: none !important; /* hide spacer cols */
-  }
-  section[style*="background:#eef5ff"] .col-12.col-lg-5 {
-    /* ensure left column spans full width so Swiper doesn't overlap */
-    width: 100% !important;
-    max-width: 100% !important;
-    flex: 0 0 100% !important;
-  }
-  
-  /* Swiper.js Mobile Carousel Styles */
-  .mobile-solutions-swiper {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    position: relative; /* ensure custom nav positions relative to the slider */
-  }
-  
-  .mobile-solutions-swiper .swiper-slide {
-    text-align: center;
-    padding: 20px;
-    background: #eef5ff;
-    border-radius: 8px;
-    margin: 0;
-    height: auto;
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  
-  .mobile-carousel-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Custom Navigation Buttons */
-  .custom-navigation {
-    position: absolute !important;
-    left: 0 !important;
-    right: 0 !important;
-    z-index: 10 !important;
-    pointer-events: none !important;
-  }
-  /* Align arrows with the slide header row */
-  .mobile-solutions-swiper .swiper-slide { position: relative; }
-  .mobile-solutions-swiper .swiper-slide .slide-header { position: relative; }
-  .mobile-solutions-swiper .swiper-button-prev-custom,
-  .mobile-solutions-swiper .swiper-button-next-custom {
-    position: absolute;
-    z-index: 20;
-    transition: top 0.3s ease;
-  }
-  .mobile-solutions-swiper .swiper-button-prev-custom { left: 16px; }
-  .mobile-solutions-swiper .swiper-button-next-custom { right: 16px; }
-  .mobile-solutions-swiper .swiper-slide .slide-header { margin-bottom: 16px; }
-  
-  /* Ensure consistent centering */
-  .mobile-solutions-swiper .swiper-slide > * {
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  .mobile-solutions-swiper .swiper-slide .text-center {
-    width: 100%;
-  }
-  
-  /* Full width container for mobile - but contained */
-  .mobile-solutions-swiper {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    position: relative;
-    overflow-x: hidden;
-  }
-  
-  /* Center content within full-width slides */
-  .mobile-solutions-swiper .swiper-slide .mobile-carousel-item {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
-  }
-  
-  .swiper-button-next-custom,
-  .swiper-button-prev-custom {
-    width: 40px !important;
-    height: 40px !important;
-    background: none !important;
-    border: none !important;
-    padding: 0 !important;
-    pointer-events: auto !important;
-    transition: all 0.3s ease;
-  }
-  
-  .swiper-button-next-custom:hover,
-  .swiper-button-prev-custom:hover {
-    transform: scale(1.1);
-  }
-  
-  .swiper-button-next-custom svg,
-  .swiper-button-prev-custom svg {
-    width: 40px !important;
-    height: 40px !important;
-    display: block !important;
-  }
-  
-  /* Swiper Container */
-  .swiper {
-    overflow: visible !important;
-  }
-  
-  .swiper-slide {
-    height: auto !important;
-  }
-  
-  /* Ensure proper spacing */
-  .mobile-carousel .swiper {
-    margin-bottom: 20px !important;
-  }
-  /* Center slide content more tightly */
-  .mobile-carousel .text-center.mb-4 { margin-top: 8px !important; }
-
-  /* Mobile Typography Adjustments */
-  h1 {
-    font-size: 40px !important;
-    line-height: 1.1 !important;
-    letter-spacing: -1.6px !important;
-  }
-  
-  h2 {
-    font-size: 40px !important;
-    line-height: 1.05 !important;
-    letter-spacing: -1.6px !important;
-  }
-  
-  .solutions-hero {
-    padding: 40px 0 !important;
-  }
-  
-  .solutions-hero .container {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-  }
-  
-  /* Mobile Section Spacing */
-  section {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-  }
-  
-  /* Mobile Card Adjustments */
-  .col-md-6 .bg-white {
-    padding: 20px !important;
-    margin-bottom: 20px !important;
-  }
-  
-  /* Mobile Testimonial Adjustments */
-  .testimonial-card {
-    height: auto !important;
-    min-height: 400px !important;
-    padding: 20px !important;
-  }
-  
-  .testimonial-quote p {
-    font-size: 18px !important;
-    line-height: 1.4 !important;
-  }
-  
-  /* Mobile CTA Adjustments */
-  .cta-content {
-    padding: 40px 20px !important;
-  }
-  
-  .cta-headline h2 {
-    font-size: 40px !important;
-    line-height: 1.05 !important;
-    letter-spacing: -1.6px !important;
-  }
-}
-
-/* Desktop Styles - Show Desktop Elements, Hide Mobile Carousel */
-@media (min-width: 769px) {
-  .mobile-carousel {
-    display: none !important;
-  }
-  
-  .solutions-hero .features-list {
-    display: block !important;
-  }
-  
-  .solutions-hero .col-lg-5 {
-    display: block !important;
-  }
-  
-  .solutions-hero .col-lg-1 {
-    display: block !important;
-  }
-  
-  .solutions-hero .col-12.col-lg-6 {
-    width: auto !important;
-    max-width: none !important;
-    flex: none !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .benefit-card {
-    padding: 2rem 1rem !important;
-  }
-  
-  .testimonial-card {
-    padding: 2rem 1rem !important;
-  }
-  
-  /* Remove unwanted margin below CTA section but keep padding */
-  .cta-section {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .cta-content {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .row:last-child {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .col-12:last-child {
-    margin-bottom: 0 !important;
-  }
-  
-  /* Ensure mobile CTA also has no bottom margin */
-  .cta-section .d-block.d-md-none {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .d-block.d-md-none .col-12 {
-    margin-bottom: 0 !important;
-  }
-  
-  /* Center "Explore our specialized solutions" heading on mobile */
-  @media (max-width: 768px) {
-    /* Target the blue section heading specifically */
-    section[style*="background:#eef5ff"] .col-12.col-lg-5 h2 {
-      text-align: center !important;
-      max-width: 100% !important;
-    }
-    
-    /* Force centering with more specific selectors */
-    section[style*="background:#eef5ff"] .col-12.col-lg-5 .mb-5 h2 {
-      text-align: center !important;
-      max-width: 100% !important;
-    }
-    
-    /* Target the heading container */
-    section[style*="background:#eef5ff"] .col-12.col-lg-5 .mb-5 {
-      text-align: center !important;
-    }
-    
-    /* Alternative selector using the background color */
-    section[style*="eef5ff"] h2 {
-      text-align: center !important;
-      max-width: 100% !important;
-    }
-    
-    /* Most specific selector */
-    section[style*="background:#eef5ff"] .col-12.col-lg-5 div.mb-5 h2 {
-      text-align: center !important;
-      max-width: 100% !important;
-    }
-  }
-  
-  /* Remove only bottom spacing from CTA section, keep internal spacing */
-  .cta-section {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  
-  /* Keep internal spacing for good content layout */
-  .cta-section .cta-content {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .cta-button {
-    margin-bottom: 0 !important;
-  }
-  
-  /* Restore proper spacing for content elements */
-  .cta-section .cta-headline {
-    margin-bottom: 1.5rem !important; /* 24px spacing below headline */
-  }
-  
-  .cta-section .cta-subtitle {
-    margin-bottom: 3rem !important; /* 48px spacing below subtitle */
-  }
-  
-  .cta-section .cta-subtitle .row {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .cta-subtitle .col-12.col-lg-8 {
-    margin-bottom: 0 !important;
-  }
-  
-  .cta-section .cta-subtitle p {
-    margin-bottom: 0 !important;
-  }
-  
-  /* Target the last element before footer */
-  .cta-section:last-of-type {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  
-  /* Ensure footer has no top margin */
-  footer {
-    margin-top: 0 !important;
-  }
-  
-  /* Universal mobile heading centering for the blue section */
-  @media (max-width: 768px) {
-    section[style*="eef5ff"] h2 {
-      text-align: center !important;
-      max-width: 100% !important;
-      display: block !important;
-    }
-  }
-}
-</style>
-
 <!-- Ready to Take the Next Step CTA Section -->
-<section class="cta-section position-relative w-100" style="padding:80px 0 0; margin-bottom: 0;">
-  <div class="container d-none d-md-block" style="max-width:1500px;">
+<section class="cta-section position-relative w-100">
+  <div class="container d-none d-md-block">
     <div class="row justify-content-center">
       <div class="col-12">
         
         <!-- CTA Content -->
-        <div class="cta-content text-center" style="background:#173758;border-radius:8px 8px 0 0;padding:80px 40px;margin:0;">
+        <div class="cta-content text-center">
           
           <!-- Main Headline -->
           <div class="cta-headline mb-4">
-            <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#ffffff;letter-spacing:-1.8px;">
+            <h2 class="m-0">
               Take Control of Your Assets Today
             </h2>
           </div>
@@ -1376,7 +808,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="cta-subtitle mb-5">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-8">
-                <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#ffffff;">
+                <p class="m-0">
                   Ready to move beyond spreadsheets and disconnected systems?<br>
                   IndySoft gives you the power to simplify compliance, improve efficiency, and centralize asset management—so you can focus on what matters most: running your business with confidence.
             </p>
@@ -1386,7 +818,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
           <!-- CTA Button -->
           <div class="cta-button">
-            <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:14px 22px;font-family:'elza',sans-serif;font-weight:600;font-size:14px;letter-spacing:-0.35px;">
+            <button class="btn">
               Request a Demo
             </button>
       </div>
@@ -1403,11 +835,11 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="col-12 p-0">
         
         <!-- CTA Content -->
-        <div class="cta-content text-center" style="background:#173758;border-radius:8px 8px 0 0;padding:80px 40px;margin:0;">
+        <div class="cta-content text-center">
           
           <!-- Main Headline -->
           <div class="cta-headline mb-4">
-            <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#ffffff;letter-spacing:-1.8px;">
+            <h2 class="m-0">
               Take Control of Your Assets Today
             </h2>
           </div>
@@ -1416,7 +848,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="cta-subtitle mb-5">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-8">
-                <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#ffffff;">
+                <p class="m-0">
                   Ready to move beyond spreadsheets and disconnected systems?<br>
                   IndySoft gives you the power to simplify compliance, improve efficiency, and centralize asset management—so you can focus on what matters most: running your business with confidence.
                 </p>
@@ -1426,7 +858,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
           <!-- CTA Button -->
           <div class="cta-button">
-            <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:14px 22px;font-family:'elza',sans-serif;font-weight:600;font-size:14px;letter-spacing:-0.35px;">
+            <button class="btn">
               Request a Demo
             </button>
           </div>
