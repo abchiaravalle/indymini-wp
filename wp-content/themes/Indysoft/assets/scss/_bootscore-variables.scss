@@ -1,0 +1,17 @@
+// In this file you can override the default variables of Bootstrap
+// Do you want primary to be green? Just add "$primary: #00FF00;" to this file and the theme will automatically compile the scss for you.
+
+$font-family-sans-serif: 'elza', sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+
+// Bootstrap 5+ CSS variable for sans-serif
+$--bs-font-sans-serif: 'elza', sans-serif !default;
+
+// Override container max-widths to 1500px
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 1500px,
+  xxl: 1500px
+) !default;
