@@ -282,8 +282,15 @@
 @media (min-width: 769px) { .mobile-carousel { display: none !important; } }
 
 /* Fix: Solutions Sub - Use Cases card backgrounds and images */
-.use-case-card { position: relative; background: #ffffff; z-index: 2; }
-.use-case-image { background-size: cover; background-position: center; }
+.use-case-card { position: relative; background: #ffffff; z-index: 2; display: flex; align-items: center; height: 195px; padding-right: 158px; }
+.use-case-image { position: absolute; right: 0; top: 0; width: 158px; height: 195px; background-size: cover; background-position: center; }
+.use-case-card .text { flex: 1; max-width: 100%; }
+
+@media (max-width: 576px) {
+  .use-case-card { height: auto; padding-right: 0; flex-direction: column; align-items: flex-start; }
+  .use-case-card .text { max-width: 100%; }
+  .use-case-image { position: relative; width: 100%; height: 180px; margin-top: 8px; }
+}
 
 /* Fix: Solutions Sub - CTA text color */
 .cta-solutions-section .cta-card p { color: #ffffff; }
