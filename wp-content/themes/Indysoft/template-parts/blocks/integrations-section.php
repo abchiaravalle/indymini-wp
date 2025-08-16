@@ -48,13 +48,13 @@ $arrow_left = get_stylesheet_directory_uri() . '/assets/1b716f75e3b68337e1fb2b9f
 $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d497c269e040e6b47c3.svg';
 ?>
 
-<!-- Swiper CSS -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <section class="integrations-section position-relative w-100 d-flex justify-content-center" style="background:<?= esc_attr($bg_color); ?>;padding:80px 0;margin-top:80px;">
   <div class="container" style="max-width:1500px;">
     
-    <!-- Headline -->
+    
     <div class="row">
       <div class="col-12 text-center mb-5">
         <h2 class="m-0 mb-5" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:<?= esc_attr($headline_color); ?>;letter-spacing:-1.8px;"><?= esc_html($headline); ?></h2>
@@ -64,19 +64,19 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
       </div>
     </div>
 
-    <!-- Swiper Container -->
+    
     <div class="swiper integrationsSwiper" style="height:450px;overflow:visible;">
       <div class="swiper-wrapper" style="align-items:center;">
         
-        <!-- Slide 1 - Tooling -->
+        
         <div class="swiper-slide">
           <div class="position-relative d-flex justify-content-center">
-            <!-- Blur Background -->
+            
             <div class="position-absolute rounded" style="background:<?= esc_attr($blur_bg_side); ?>;filter:blur(20px);width:322px;height:223px;top:8px;left:9px;z-index:1;"></div>
-            <!-- Card -->
+            
             <div class="position-relative card border-0 rounded" style="background:<?= esc_attr($card_bg); ?>;width:339px;height:224px;z-index:2;">
               <div class="card-body d-flex flex-column align-items-center justify-content-center text-center h-100">
-                <!-- Icon -->
+                
                 <div class="mb-3" style="width:40px;height:40px;opacity:0.5;">
                   <?php if ($card_1_icon): ?>
                     <img src="<?= esc_url($card_1_icon); ?>" alt="<?= esc_attr($card_1_title); ?>" style="width:100%;height:100%;object-fit:contain;">
@@ -93,20 +93,20 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
           </div>
         </div>
 
-        <!-- Slide 2 - Calibration (Featured) -->
+        
         <div class="swiper-slide">
           <div class="position-relative d-flex justify-content-center">
-            <!-- Blur Background -->
+            
             <div class="position-absolute rounded" style="background:<?= esc_attr($blur_bg_main); ?>;filter:blur(25px);width:400px;height:433px;top:14px;left:13px;z-index:1;"></div>
-            <!-- Card -->
+            
             <div class="position-relative card border-0 rounded" style="background:<?= esc_attr($card_bg); ?>;width:424px;height:433px;z-index:2;">
               <div class="card-body d-flex flex-column align-items-center text-center h-100 p-4">
-                <!-- Icon Container (Complex Calibration Target) -->
+                
                 <div class="position-relative mb-3" style="width:50px;height:50px;margin-top:20px;">
                   <?php if ($card_2_icon): ?>
                     <img src="<?= esc_url($card_2_icon); ?>" alt="<?= esc_attr($card_2_title); ?>" style="width:100%;height:100%;object-fit:contain;">
                   <?php else: ?>
-                    <!-- Calibration Target Icon - Exact from Figma -->
+                    
                     <div class="position-relative w-100 h-100">
                       <img src="<?= esc_url($calibration_icon_group_1); ?>" alt="Calibration Target" class="position-absolute" style="width:100%;height:100%;">
                       <img src="<?= esc_url($calibration_icon_group_2); ?>" alt="Calibration Target" class="position-absolute" style="width:34.27%;height:34.27%;top:6.94%;right:6.94%;">
@@ -119,7 +119,7 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
                 
                 <h3 class="m-0 mb-4" style="font-family:'elza',sans-serif;font-weight:600;font-size:32px;line-height:1.1;color:<?= esc_attr($card_title_color); ?>;letter-spacing:-0.64px;"><?= esc_html($card_2_title); ?></h3>
                 
-                <!-- Description as List -->
+                
                 <?php if ($card_2_description): 
                   $description_items = explode('|', $card_2_description); ?>
                   <div class="mb-4" style="font-family:'elza',sans-serif;font-weight:400;font-size:20px;line-height:1.4;color:<?= esc_attr($card_text_color); ?>;max-width:284px;text-align:left;">
@@ -133,7 +133,7 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
                   </div>
                 <?php endif; ?>
                 
-                <!-- Learn More Link -->
+                
                 <?php if ($card_2_link_text && $card_2_link_url): ?>
                   <a href="<?= esc_url($card_2_link_url); ?>" class="d-flex align-items-center gap-2 mt-auto" style="font-family:'elza',sans-serif;font-weight:600;font-size:16px;color:<?= esc_attr($link_color); ?>;text-decoration:none;">
                     <?= esc_html($card_2_link_text); ?>
@@ -145,20 +145,20 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
           </div>
         </div>
 
-        <!-- Slide 3 - Maintenance Management -->
+        
         <div class="swiper-slide">
           <div class="position-relative d-flex justify-content-center">
-            <!-- Blur Background -->
+            
             <div class="position-absolute rounded" style="background:<?= esc_attr($blur_bg_side); ?>;filter:blur(20px);width:319px;height:228px;top:7px;left:10px;z-index:1;"></div>
-            <!-- Card -->
+            
             <div class="position-relative card border-0 rounded" style="background:<?= esc_attr($card_bg); ?>;width:339px;height:224px;z-index:2;">
               <div class="card-body d-flex flex-column align-items-center justify-content-center text-center h-100">
-                <!-- Icon Container (Maintenance Gear) -->
+                
                 <div class="position-relative mb-3" style="width:40px;height:40px;opacity:0.5;">
                   <?php if ($card_3_icon): ?>
                     <img src="<?= esc_url($card_3_icon); ?>" alt="<?= esc_attr($card_3_title); ?>" style="width:100%;height:100%;object-fit:contain;">
                   <?php else: ?>
-                    <!-- Maintenance Icon - Exact from Figma -->
+                    
                     <div class="position-relative w-100 h-100">
                       <img src="<?= esc_url($maintenance_icon_gear); ?>" alt="Maintenance Gear" class="position-absolute" style="width:100%;height:100%;">
                       <img src="<?= esc_url($maintenance_icon_vector); ?>" alt="Maintenance Vector" class="position-absolute" style="width:7.81%;height:7.81%;top:46.68%;left:44.92%;">
@@ -177,7 +177,7 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
       </div>
     </div>
 
-    <!-- Navigation Arrows -->
+    
     <div class="row justify-content-center mt-4">
       <div class="col-auto">
         <div class="d-flex gap-2">
@@ -194,10 +194,10 @@ $arrow_right = get_stylesheet_directory_uri() . '/assets/39780cbb09447a19f0965d4
   </div>
 </section>
 
-<!-- Swiper JS -->
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Swiper Initialization -->
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const swiper = new Swiper('.integrationsSwiper', {
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- Custom Styles -->
+
 <style>
 .integrationsSwiper {
   overflow: visible !important;

@@ -21,15 +21,15 @@ defined('ABSPATH') || exit;
 
 <footer id="footer" class="bootscore-footer">
 
-  <!-- IndySoft Custom Footer -->
+  
   <div class="indysoft-footer" style="background:#0e253d;padding:80px 0 40px 0;margin-top:0;">
     <div class="container" style="max-width:1500px;">
       
-      <!-- Main Footer Content -->
+      
       <div class="row justify-content-center text-center">
         <div class="col-12 col-lg-8">
           
-          <!-- Logo -->
+          
           <div class="mb-5">
             <svg xmlns="http://www.w3.org/2000/svg" width="208" height="43" viewBox="0 0 208 43" fill="none" style="height:40px;width:auto;">
               <g clip-path="url(#clip0_1194_1964)">
@@ -51,7 +51,7 @@ defined('ABSPATH') || exit;
             </svg>
           </div>
           
-          <!-- Navigation Links -->
+          
           <div class="mb-5">
             <nav class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4 gap-md-5">
               <a href="#" class="text-decoration-none" style="font-family:'elza',sans-serif;font-weight:600;font-size:14px;color:#ffffff;transition:color 0.2s ease;">
@@ -74,7 +74,7 @@ defined('ABSPATH') || exit;
               </a>
             </nav>
           </div>
-          <!-- Follow Us -->
+          
           <div class="mb-5 text-center">
             <p class="mb-3" style="font-family:'elza',sans-serif;font-weight:600;font-size:14px;color:#0770fc;">Follow Us</p>
             <div class="d-flex justify-content-center align-items-center gap-3">
@@ -96,7 +96,7 @@ defined('ABSPATH') || exit;
         </div>
       </div>
       
-      <!-- Copyright Row -->
+      
       <div class="row align-items-center justify-content-between" style="border-top:1px solid #173758;padding-top:30px;margin-top:40px;">
         <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
           <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:14px;color:#057da6;">
@@ -115,10 +115,10 @@ defined('ABSPATH') || exit;
 
 </footer>
 
-<!-- To top button -->
+
 <a href="#" class="<?= apply_filters('bootscore/class/footer/to_top_button', 'btn btn-primary shadow'); ?> position-fixed zi-1000 top-button" aria-label="<?php esc_attr_e('Return to top', 'bootscore' ); ?>"><?= apply_filters('bootscore/icon/chevron-up', '<i class="fa-solid fa-chevron-up"></i>'); ?><span class="visually-hidden-focusable">To top</span></a>
 
-</div><!-- #page -->
+</div>
 
 <?php wp_footer(); ?>
 

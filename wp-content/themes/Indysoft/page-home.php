@@ -10,15 +10,15 @@
 get_header();
 ?>
 
-<!-- Swiper CSS -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
-<!-- Hero Section -->
+
 <section class="hero-section position-relative w-100 d-flex justify-content-center  py-0 py-md-5" style="background:#fff;padding:80px 0;">
   <div class="container py-md-4">
     <div class="row">
-      <!-- Mobile-First: Content stacks first, then side-by-side on desktop -->
+      
       <div class="col-12 col-md-12 col-lg-6 d-flex flex-column gap-4 mb-4 mb-lg-0" style="max-width:740px;">
         <h1 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:100px;line-height:1;color:#003040;letter-spacing:-2.5px;">How quality gets dialed in.</h1>
         <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:40px;line-height:1.1;color:#003040;">Stay audit-ready 24/7, improve technician productivity, and ensure compliance</h2>
@@ -30,9 +30,9 @@ get_header();
         </div>
       </div>
 
-      <!-- Right Image - Mobile: full width, Desktop: half width -->
+      
       <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center justify-content-lg-end hero-img-wrapper position-relative">
-        <!-- Shadow blur element behind hero image -->
+        
         <div class="position-absolute" style="
           top: 50%;
           left: 50%;
@@ -99,18 +99,18 @@ get_header();
 </svg>
 
       </div>
-    </div><!-- .row -->
+    </div>
   </div>
 </section>
 
-<!-- Precision You Can Count On Section -->
+
 <section class="precision-section position-relative w-100 animate-fade-up" style="padding:80px 0;">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Blue Background Container - Mobile-First Responsive -->
+    
     <div class="position-relative rounded" style="background:#173758;padding:80px 40px;">
       
-      <!-- Section Title -->
+      
       <div class="row justify-content-center text-center mb-4 mb-md-5">
         <div class="col-12">
           <h2 class="m-0 animate-fade-up" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#ffffff;letter-spacing:-1.8px;">
@@ -119,21 +119,21 @@ get_header();
         </div>
       </div>
     
-    <!-- Swiper Container -->
+    
     <div class="precisionSwiper swiper position-relative animate-fade-up">
       <div class="swiper-wrapper">
         
-        <!-- Slide 1: Tooling -->
+        
         <div class="swiper-slide animate-stagger">
           <div class="position-relative d-flex align-items-center justify-content-center">
             
-            <!-- Blur Shadow -->
+            
             <div class="position-absolute rounded precision-shadow" style="background:rgba(14,34,56,0.6);filter:blur(20px);"></div>
             
-            <!-- White Card -->
+            
             <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-center precision-card" style="z-index:10;">
               
-              <!-- Icon -->
+              
               <div class="mb-3">
               <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.5">
@@ -143,7 +143,7 @@ get_header();
 
               </div>
               
-              <!-- Title -->
+              
               <h3 class="m-0 text-center" style="font-family:'elza',sans-serif;font-weight:600;font-size:26px;line-height:1.1;color:#003040;letter-spacing:-0.52px;">
                 Tooling
               </h3>
@@ -152,17 +152,17 @@ get_header();
           </div>
         </div>
         
-        <!-- Slide 2: Calibration (Active/Center) -->
+        
         <div class="swiper-slide animate-stagger">
           <div class="position-relative d-flex align-items-center justify-content-center">
             
-            <!-- Blur Shadow -->
+            
             <div class="position-absolute rounded precision-shadow-large" style="background:rgba(14,34,56,0.6);filter:blur(25px);"></div>
             
-            <!-- White Card -->
+            
             <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-start precision-card-large" style="z-index:10;padding:40px 30px;">
               
-              <!-- Icon -->
+              
               <div class="mb-4">
                 <div class="position-relative" style="width:50px;height:50px;">
                 <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,12 +183,12 @@ get_header();
                 </div>
               </div>
               
-              <!-- Title -->
+              
               <h3 class="mb-4 text-center" style="font-family:'elza',sans-serif;font-weight:600;font-size:32px;line-height:1.1;color:#003040;letter-spacing:-0.64px;">
                 Calibration
               </h3>
               
-              <!-- Content -->
+              
               <div class="mb-4" style="max-width:285px;">
                 <ul class="list-unstyled m-0">
                   <li class="mb-2" style="font-family:'elza',sans-serif;font-weight:400;font-size:20px;line-height:1.4;color:#1C5263;">
@@ -200,7 +200,7 @@ get_header();
                 </ul>
               </div>
               
-              <!-- Learn More Link -->
+              
               <div class="d-flex align-items-center gap-1">
                 <span style="font-family:'elza',sans-serif;font-weight:600;font-size:16px;line-height:1.4;color:#0770fc;">
                   Learn More
@@ -214,17 +214,17 @@ get_header();
           </div>
         </div>
         
-        <!-- Slide 3: Maintenance Management -->
+        
         <div class="swiper-slide animate-stagger">
           <div class="position-relative d-flex align-items-center justify-content-center">
             
-            <!-- Blur Shadow -->
+            
             <div class="position-absolute rounded precision-shadow" style="background:rgba(14,34,56,0.6);filter:blur(20px);"></div>
             
-            <!-- White Card -->
+            
             <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-center precision-card" style="z-index:10;">
               
-              <!-- Icon -->
+              
               <div class="mb-3">
               <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M21.0022 20.1929H19.9797C19.9432 20.0138 19.8019 19.8724 19.6228 19.8359V18.8135C19.6228 18.7629 19.5819 18.7219 19.5312 18.7219C19.4806 18.7219 19.4397 18.7629 19.4397 18.8135V19.8359C19.2606 19.8724 19.1193 20.0138 19.0828 20.1929H18.0603C18.0097 20.1929 17.9688 20.2338 17.9688 20.2844C17.9688 20.335 18.0097 20.376 18.0603 20.376H19.0828C19.1193 20.5551 19.2606 20.6964 19.4397 20.7329V21.7554C19.4397 21.806 19.4806 21.8469 19.5312 21.8469C19.5819 21.8469 19.6228 21.806 19.6228 21.7554V20.7329C19.8019 20.6964 19.9432 20.5551 19.9797 20.376H21.0022C21.0528 20.376 21.0938 20.335 21.0938 20.2844C21.0938 20.2338 21.0528 20.1929 21.0022 20.1929Z" fill="#0770FC"/>
@@ -241,7 +241,7 @@ get_header();
 
               </div>
               
-              <!-- Title -->
+              
               <h3 class="m-0 text-center" style="font-family:'elza',sans-serif;font-weight:600;font-size:26px;line-height:1.1;color:#003040;letter-spacing:-0.52px;max-width:193px;">
                 Maintenance Management
               </h3>
@@ -252,7 +252,7 @@ get_header();
         
       </div>
       
-      <!-- Navigation -->
+      
       <div class="d-flex align-items-center justify-content-center gap-2 mt-5 animate-fade-up">
         <div class="swiper-button-prev-precision cursor-pointer d-flex align-items-center justify-content-center" style="width:40px;height:40px;">
           <img src="<?= get_stylesheet_directory_uri(); ?>/assets/1b716f75e3b68337e1fb2b9ff6fd751204cbe336.svg" 
@@ -268,17 +268,17 @@ get_header();
       
     </div>
     
-  </div> <!-- End Blue Background Container -->
+  </div> 
   
   </div>
 </section>
 
 
-<!-- Logo Cloud Section -->
+
 <section class="logo-cloud-section py-5 position-relative w-100 d-flex justify-content-center balance animate-fade-up">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Text Content -->
+    
     <div class="row justify-content-center">
       <div class="col-12">
         <div class="text-center mb-3 mb-md-4">
@@ -288,37 +288,37 @@ get_header();
       </div>
     </div>
 
-    <!-- Logo Row - Mobile-First -->
+    
     <div class="row justify-content-center animate-fade-up">
       <div class="col-12" style="max-width:1500px;">
         <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 gap-md-4">
           
-          <!-- Logo 1 -->
+          
           <div class="logo-container d-flex flex-column align-items-start justify-content-center position-relative" style="width:154px;height:84px;padding:20px;overflow:hidden;">
             <div style="width:100%;height:100%;flex:1;background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/7e2cb6a493f6974234a10a9155f5a9e61358668d.png');background-size:contain;background-position:center;background-repeat:no-repeat;opacity:0.6;mix-blend-mode:exclusion;min-height:1px;min-width:1px;"></div>
           </div>
 
-          <!-- Logo 2 -->
+          
           <div class="logo-container d-flex flex-column align-items-start justify-content-center position-relative" style="width:154px;height:84px;padding:20px;overflow:hidden;">
             <div style="width:100%;height:100%;flex:1;background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/4ec63af28a6d626d15af88690afce1177f7da2aa.png');background-size:contain;background-position:center;background-repeat:no-repeat;opacity:0.6;mix-blend-mode:exclusion;min-height:1px;min-width:1px;"></div>
           </div>
 
-          <!-- Logo 3 -->
+          
           <div class="logo-container d-flex flex-column align-items-start justify-content-center position-relative" style="width:154px;height:84px;padding:20px;">
             <div style="width:100%;height:100%;flex:1;background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/22502dfc1e4e8a242285d42db1a38e6e853633fc.png');background-size:contain;background-position:center;background-repeat:no-repeat;opacity:0.6;mix-blend-mode:exclusion;min-height:1px;min-width:1px;"></div>
           </div>
 
-          <!-- Logo 4 -->
+          
           <div class="logo-container d-flex flex-column align-items-start justify-content-center position-relative" style="width:154px;height:84px;padding:20px;overflow:hidden;">
             <div style="width:100%;height:100%;flex:1;background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/ab60fb89b643e72e94769301b2a7ea53c2788495.png');background-size:contain;background-position:center;background-repeat:no-repeat;opacity:0.6;mix-blend-mode:exclusion;min-height:1px;min-width:1px;"></div>
           </div>
 
-          <!-- Logo 5 -->
+          
           <div class="logo-container d-flex flex-column align-items-start justify-content-center position-relative" style="width:154px;height:84px;padding:20px;">
             <div style="width:100%;height:100%;flex:1;background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/5353f37898f8daa86c3f3f525e94362e62de8b6a.png');background-size:contain;background-position:center;background-repeat:no-repeat;opacity:0.6;mix-blend-mode:exclusion;min-height:1px;min-width:1px;"></div>
           </div>
 
-          <!-- Logo 6 -->
+          
           <div class="logo-container d-flex flex-column align-items-start justify-content-center position-relative" style="width:150px;height:81.818px;padding:20px;overflow:hidden;">
             <div style="width:100%;height:100%;flex:1;background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/262ae2257b7f47685a1fd90f0f27d6372a2bca23.png');background-size:contain;background-position:center;background-repeat:no-repeat;opacity:0.6;mix-blend-mode:exclusion;min-height:1px;min-width:1px;"></div>
           </div>
@@ -485,11 +485,11 @@ get_header();
     </div>
 </section>
 
-<!-- Why IndySoft Section -->
+
 <section class="advantages-section position-relative pt-5 w-100 d-flex justify-content-center" style="background: rgba(7, 112, 252, 0.07);">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Section Header -->
+    
     <div class="row">
       <div class="col-12 text-center">
         <h2 class="m-0 mb-3 mb-md-4" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">Why IndySoft?</h2>
@@ -501,13 +501,13 @@ get_header();
       </div>
     </div>
 
-    <!-- Features List -->
+    
     <div class="row d-none">
       <div class="col-12 col-lg-6">
-        <!-- Feature List Items -->
+        
         <div class="features-list" style="max-width:740px;">
           
-          <!-- Feature 1 -->
+          
           <div class="d-flex gap-4 align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/38ae819d53ac79772563328e97168cfba172d2b9.svg" alt="Tracking" style="width:100%;height:100%;object-fit:contain;">
@@ -518,7 +518,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 2 -->
+          
           <div class="d-flex gap-4 align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/07686bc5f6d86eb15c83a825c436dcf4278cc466.svg" alt="Seamless" style="width:100%;height:100%;object-fit:contain;">
@@ -529,7 +529,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 3 -->
+          
           <div class="d-flex gap-4 align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/a0cabb5e39473b0bcc1be6a42f816c12d25ea339.svg" alt="Custom" style="width:100%;height:100%;object-fit:contain;">
@@ -540,7 +540,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 4 -->
+          
           <div class="d-flex gap-4 align-items-start" style="padding:20px 80px 20px 0;min-width:40px;height:141px;">
             <div class="flex-shrink-0" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/d08182d9ec0a31d5c70b20ad07980e4b5d5b6f0d.svg" alt="Multiple" style="width:100%;height:100%;object-fit:contain;">
@@ -554,10 +554,10 @@ get_header();
         </div>
       </div>
 
-      <!-- Right Side - Image/Screenshot -->
+      
       <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
         <div class="position-relative" style="max-width:700px;width:100%;">
-          <!-- Placeholder for screenshot image -->
+          
           <div class="rounded shadow" style="aspect-ratio:700/488;background:#f8f9fa;border:2px dashed #dee2e6;display:flex;align-items:center;justify-content:center;color:#6c757d;">
             <div class="text-center">
               <div style="font-size:48px;margin-bottom:16px;">📊</div>
@@ -572,18 +572,18 @@ get_header();
   </div>
 </section>
 
-<!-- Why IndySoft Section - Part 1 (Original Layout) -->
+
 <section class="advantages-section-1 position-relative py-0 w-100 d-flex justify-content-center" style="padding:60px 0 120px 0; background: rgba(7, 112, 252, 0.07);">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Features Row - Mobile-First Layout -->
+    
     <div class="row align-items-center">
       
-      <!-- Mobile: Features first, Desktop: Features left -->
+      
       <div class="col-12 col-lg-6 pe-lg-4 mb-4 mb-lg-0">
         <div class="features-list-1" style="max-width:726px;height:auto;">
           
-          <!-- Feature 1 - More Than Just World-Leading Calibration -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/38ae819d53ac79772563328e97168cfba172d2b9.svg" alt="Tracking" style="width:100%;height:100%;object-fit:contain;">
@@ -594,7 +594,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 2 - Seamless & Connected -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/07686bc5f6d86eb15c83a825c436dcf4278cc466.svg" alt="Seamless" style="width:100%;height:100%;object-fit:contain;">
@@ -605,7 +605,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 3 - Custom-Fit for Your Needs -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/a0cabb5e39473b0bcc1be6a42f816c12d25ea339.svg" alt="Custom" style="width:100%;height:100%;object-fit:contain;">
@@ -616,7 +616,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 4 - Built for Multi-Location Operations -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;height:141px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/d08182d9ec0a31d5c70b20ad07980e4b5d5b6f0d.svg" alt="Multiple" style="width:100%;height:100%;object-fit:contain;">
@@ -630,14 +630,14 @@ get_header();
         </div>
       </div>
 
-      <!-- Right Side - Screenshot -->
+      
       <div class="col-lg-6 d-flex justify-content-center align-items-center ps-lg-4">
         <div class="position-relative" style="max-width:700px;width:100%;">
-          <!-- Screenshot with Data Points -->
+          
           <div class="position-relative rounded" style="width:100%;max-width:700px;height:auto;">
             <img src="<?= get_stylesheet_directory_uri(); ?>/assets/why1.png" alt="IndySoft Screenshot" class="img-fluid w-100" style="object-fit:contain;">
             
-            <!-- Data Point 1 - Left Side -->
+            
             <div class="position-absolute" style="left:-81px;top:262px;">
               <div class="position-absolute rounded" style="background:rgba(7,112,252,0.2);width:204px;height:61px;box-shadow:10px 10px 30px 0px rgba(0,30,130,0.1);border-radius:5000%;"></div>
               <div class="position-absolute" style="left:29px;top:19px;width:23.899px;height:23.899px;">
@@ -648,12 +648,12 @@ get_header();
               </div>
             </div>
             
-            <!-- Connector Line 1 -->
+            
             <div class="position-absolute" style="left:-32px;top:168px;width:26px;height:94px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/bfef7f3bf1d6e7ec80d8c575e50234b663d43ecb.svg" alt="Connector" style="width:100%;height:100%;">
             </div>
             
-            <!-- Data Point 2 - Right Side -->
+            
             <div class="position-absolute" style="left:483px;top:290px;">
               <div class="position-absolute rounded" style="background:rgba(7,112,252,0.2);width:233px;height:61px;box-shadow:10px 10px 30px 0px rgba(0,30,130,0.1);border-radius:5000%;"></div>
               <div class="position-absolute" style="left:29px;top:19px;width:23.899px;height:23.899px;">
@@ -664,12 +664,12 @@ get_header();
               </div>
             </div>
             
-            <!-- Connector Line 2 -->
+            
             <div class="position-absolute d-flex align-items-center justify-content-center" style="left:586.75px;top:351px;width:26px;height:94px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/7dbf66ca5f12f257ee38a9f6d9c917bd9699b153.svg" alt="Connector" style="width:100%;height:100%;transform:rotate(180deg);">
             </div>
             
-            <!-- Overlay Blur Elements -->
+            
             <div class="position-absolute" style="left:-14px;top:33px;width:697px;height:125px;background:rgba(255,255,255,0.4);backdrop-filter:blur(2px);"></div>
             <div class="position-absolute" style="left:-14px;top:184px;width:697px;height:26px;background:rgba(255,255,255,0.4);backdrop-filter:blur(2px);"></div>
             <div class="position-absolute" style="left:-14px;top:361px;width:697px;height:69px;background:rgba(255,255,255,0.4);backdrop-filter:blur(2px);"></div>
@@ -684,21 +684,21 @@ get_header();
   </div>
 </section>
 
-<!-- Why IndySoft Section - Part 2 (Mirrored Layout) -->
+
 <section class="advantages-section-2 position-relative py-0 w-100 d-flex justify-content-center" style="padding:60px 0 120px 0; background: rgba(7, 112, 252, 0.07);">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Features Row - Mobile-First Mirrored Layout -->
+    
     <div class="row align-items-center">
       
-      <!-- Left Side - Screenshot (Order 2 on mobile) -->
+      
       <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center pe-lg-4 order-2 order-lg-1">
         <div class="position-relative" style="max-width:700px;width:100%;">
-          <!-- Screenshot with Data Points -->
+          
           <div class="position-relative rounded" style="width:100%;max-width:700px;height:auto;">
           <img src="<?= get_stylesheet_directory_uri(); ?>/assets/why1.png" alt="IndySoft Screenshot" class="img-fluid w-100" style="object-fit:contain;">
             
-            <!-- Data Point 1 - Left Side -->
+            
             <div class="position-absolute" style="left:-81px;top:262px;">
               <div class="position-absolute rounded" style="background:rgba(7,112,252,0.2);width:204px;height:61px;box-shadow:10px 10px 30px 0px rgba(0,30,130,0.1);border-radius:5000%;"></div>
               <div class="position-absolute" style="left:29px;top:19px;width:23.899px;height:23.899px;">
@@ -709,12 +709,12 @@ get_header();
               </div>
             </div>
             
-            <!-- Connector Line 1 -->
+            
             <div class="position-absolute" style="left:-32px;top:168px;width:26px;height:94px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/bfef7f3bf1d6e7ec80d8c575e50234b663d43ecb.svg" alt="Connector" style="width:100%;height:100%;">
             </div>
             
-            <!-- Data Point 2 - Right Side -->
+            
             <div class="position-absolute" style="left:483px;top:290px;">
               <div class="position-absolute rounded" style="background:rgba(7,112,252,0.2);width:233px;height:61px;box-shadow:10px 10px 30px 0px rgba(0,30,130,0.1);border-radius:5000%;"></div>
               <div class="position-absolute" style="left:29px;top:19px;width:23.899px;height:23.899px;">
@@ -725,12 +725,12 @@ get_header();
               </div>
             </div>
             
-            <!-- Connector Line 2 -->
+            
             <div class="position-absolute d-flex align-items-center justify-content-center" style="left:586.75px;top:351px;width:26px;height:94px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/c6441026afb12254c448247ed3e31ffae2fa1850.svg" alt="Connector" style="width:100%;height:100%;transform:rotate(180deg);">
             </div>
             
-            <!-- Overlay Blur Elements -->
+            
             <div class="position-absolute" style="left:-14px;top:33px;width:697px;height:125px;background:rgba(255,255,255,0.4);backdrop-filter:blur(2px);"></div>
             <div class="position-absolute" style="left:-14px;top:184px;width:697px;height:26px;background:rgba(255,255,255,0.4);backdrop-filter:blur(2px);"></div>
             <div class="position-absolute" style="left:-14px;top:361px;width:697px;height:69px;background:rgba(255,255,255,0.4);backdrop-filter:blur(2px);"></div>
@@ -740,11 +740,11 @@ get_header();
         </div>
       </div>
 
-      <!-- Right Side - Feature List (Order 1 on mobile) -->
+      
       <div class="col-12 col-lg-6 ps-lg-4 mb-4 mb-lg-0 order-1 order-lg-2">
         <div class="features-list-2" style="max-width:730px;height:auto;padding-bottom:80px;">
           
-          <!-- Feature 1 - Audit-Ready, Always -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/fb1b38d56755f54abe204e7871c6c44ede802844.svg" alt="Audit" style="width:100%;height:100%;object-fit:contain;">
@@ -755,7 +755,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 2 - User-Friendly & Automated -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/dbf9fdc734034467fdf94bb82420e8fecf3dab43.svg" alt="Automated" style="width:100%;height:100%;object-fit:contain;">
@@ -766,7 +766,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 3 - Trusted by Industry Leaders -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/16056a8726acd80c9ae4e08ea6e91e3a4e97721a.svg" alt="Trust" style="width:100%;height:100%;object-fit:contain;">
@@ -777,7 +777,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Feature 4 - Leading the Digital Transformation -->
+          
           <div class="d-flex align-items-start" style="padding:20px 80px 20px 0;min-width:40px;height:auto;">
             <div class="flex-shrink-0 me-3" style="width:35px;height:35px;">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/8fc4f6bea64a4733c75f626b8c944722531aeeec.svg" alt="Leader" style="width:100%;height:100%;object-fit:contain;">
@@ -796,19 +796,19 @@ get_header();
   </div>
 </section>
 
-<!-- Demo Video Section -->
+
 <section class="demo-video-section d-flex flex-column align-items-center justify-content-start position-relative w-100 pb-5 z-3" style="background:rgba(7,112,252,0.07); overflow:visible!important;">
   
-  <!-- Image Container -->
+  
   <div class="demo-container d-flex flex-row align-items-start justify-content-start position-relative w-100" style="aspect-ratio:1120/620;max-height:830.357px;max-width:1500px;margin-bottom:-200px;border-radius:8px;">
     
-    <!-- Image with Overlay and Content -->
+    
     <div class="d-flex flex-row align-items-center justify-content-center position-relative w-100 h-100 px-3 px-md-4" style="border-radius: 8px; overflow:hidden; background-image:url('<?= get_stylesheet_directory_uri(); ?>/assets/2f9a1455268371388391ff5e17f78a94d79f6ba7.png');background-size:cover;background-position:50% 50%;background-repeat:no-repeat;">
       
-      <!-- Dark Overlay -->
+      
       <div class="position-absolute w-100 h-100" style="background:#00000080;top:0;left:0;"></div>
       
-      <!-- Demo Video Text -->
+      
       <div class="position-relative text-center" style="z-index:2;max-width:647px;height:auto;">
         <h1 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:80px;line-height:1.4;color:#ffffff;letter-spacing:-1px;">DEMO VIDEO</h1>
       </div>
@@ -819,32 +819,32 @@ get_header();
   
 </section>
 
-<!-- Content Section -->
+
 <section class="content-section position-relative w-100" style="padding-top:300px!important;padding-bottom:100px;">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Content Row -->
+    
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <!-- Text Content Container -->
+        
         <div class="d-flex flex-column align-items-center text-center" style="gap:40px;">
           
-          <!-- Main Headline -->
+          
           <div class="row justify-content-center">
             <div class="col-12 col-xl-10">
               <h1 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">Make the most of your time, talent, and tools with one simple solution</h1>
             </div>
           </div>
           
-          <!-- Description Paragraph -->
+          
           <div class="row justify-content-center">
             <div class="col-12 col-lg-10 col-xl-8">
               <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#1c5263;">Maximize asset value, efficiency, and process ROI. Yes, we're the undisputed leader in calibration management, but IndySoft also tracks tools, test equipment, and other assets to ensure equipment uptime and proactive maintenance. And, with workflow automation, integrated document control, audit logging, and electronic signatures, you get measurable efficiency gains.</p>
             </div>
           </div>
           
-          <!-- CTA Button -->
+          
           <div class="row justify-content-center">
             <div class="col-auto">
               <button class="btn d-inline-flex align-items-center justify-content-center text-nowrap animate-fade-up" style="background:#0770fc;padding:14px 22px;border:none;border-radius:0;font-family:'elza',sans-serif;font-weight:600;font-size:14px;line-height:1.4;color:#ffffff;letter-spacing:-0.35px;">
@@ -861,18 +861,18 @@ get_header();
   </div>
 </section>
 
-<!-- Integrations Section -->
+
 <section class="integrations-section position-relative w-100" style="padding:60px 0;background:#ffffff;">
   <div class="container py-md-4" style="max-width:1500px;">
     <div class="row align-items-center justify-content-center g-5">
-      <!-- Headline -->
+      
       <div class="col-12 col-lg-4 text-center text-lg-start">
         <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:40px;line-height:1.05;color:#003040;letter-spacing:-1.6px;max-width:352px;">
           Integrate with all your tools
         </h2>
       </div>
 
-      <!-- Integration Cards -->
+      
       <div class="col-12 col-lg-8 d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
         <?php
           $integrations = [
@@ -882,9 +882,9 @@ get_header();
           ];
           foreach($integrations as $int){ ?>
           <div class="position-relative" style="width:338px;min-height:187px;">
-            <!-- Blue blur -->
+            
             <div class="position-absolute rounded" style="background:rgba(7,112,252,0.15);filter:blur(20px);width:309px;height:187px;top:17px;left:12px;z-index:0;"></div>
-            <!-- White card -->
+            
             <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-center text-center" style="width:338px;height:187px;z-index:1;">
               <div class="mb-3" style="width:144px;height:35px;opacity:0.6;mix-blend-mode:exclusion;">
                 <img src="<?= get_stylesheet_directory_uri(); ?>/assets/<?= esc_attr($int['logo']); ?>" alt="Logo" class="img-fluid w-100 h-100" style="object-fit:contain;">
@@ -898,41 +898,41 @@ get_header();
   </div>
 </section>
 
-<!-- Hero Impact Section -->
+
 <section class="hero-impact-section position-relative w-100 py-5">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Hero Card Container -->
+    
     <div class="position-relative rounded">
       
-      <!-- Blue Blur Shadow (Hidden on mobile) -->
+      
       <div class="position-absolute rounded d-none d-md-block" style="background:rgba(7,112,252,0.15);filter:blur(20px);width:1434px;height:464px;top:59px;left:31px;"></div>
       
-      <!-- Dark Blue Card -->
+      
       <div class="position-relative rounded" style="background:#173758;width:100%;max-width:1496px;height:auto;min-height:485px;padding:60px 121px;">
         
-        <!-- Content Container -->
+        
         <div class="d-flex flex-column align-items-center justify-content-start" style="gap:40px;">
           
-          <!-- Main Content Row -->
+          
           <div class="container-fluid px-0" style="width:100%;">
             <div class="row align-items-center impact-row">
               
-              <!-- Left Side - Headline -->
+              
               <div class="col-12 col-lg-7 mb-4 mb-lg-0 text-center text-lg-start">
                 <h1 class="m-0 balance" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:0.9;color:#ffffff;letter-spacing:-1.8px;">Unlock massive impact you can measure</h1>
               </div>
               
-              <!-- Right Side - Stats Text -->
+              
               <div class="col-12 col-lg-5">
                 <div class="d-flex flex-column align-items-center justify-content-center text-center" style="gap:20px;padding:40px 0;">
                   
-                  <!-- Large Number -->
+                  
                   <div class="countup-smooth" data-count="5,000,000" style="font-family:'elza',sans-serif;font-weight:600;font-size:100px;line-height:0.9;color:#0770fc;letter-spacing:-3px;">
                     5,000,000
                   </div>
                   
-                  <!-- Description -->
+                  
                   <div style="font-family:'elza',sans-serif;font-weight:600;font-size:40px;line-height:1;color:#ffffff;">
                     calibrations completed
                   </div>
@@ -1012,20 +1012,20 @@ get_header();
 }
 </style>
 
-<!-- Features Section -->
+
 <section class="features-sec pt-0 w-100" style="padding:120px 0;">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Title Section -->
+    
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-4 mb-md-5">
         
-        <!-- Main Headline -->
+        
         <div class="mb-4">
           <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">What makes us different</h2>
         </div>
         
-        <!-- Description -->
+        
         <div class="row justify-content-center">
           <div class="col-12 col-lg-8 col-xl-6">
             <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#1c5263;max-width:630px;margin:0 auto;">When it comes to calibration management, the details make the difference. With IndySoft, you always know exactly where you — and your instruments — stand.</p>
@@ -1035,23 +1035,23 @@ get_header();
       </div>
     </div>
     
-    <!-- Feature Cards -->
+    
     <div class="row justify-content-center mb-4 mb-md-5">
       
-      <!-- Feature Card 1 -->
+      
       <div class="col-12 col-md-6 col-xl-4 mb-4 mb-xl-0 d-flex justify-content-center">
         <div class="position-relative" style="width:494px;height:195px;max-width:100%;">
           
-          <!-- Blue Blur Shadow -->
+          
           <div class="position-absolute rounded" style="background:rgba(7,112,252,0.15);filter:blur(20px);width:451px;height:195px;top:17px;left:18px;"></div>
           
-          <!-- White Card -->
+          
           <div class="position-absolute d-flex align-items-start justify-content-start" style="background:#ffffff;width:494px;height:195px;top:0;left:0;max-width:100%;padding:54px 60px;overflow:hidden;">
             
-            <!-- Large Number Background -->
+            
             <div class="position-absolute" style="top:-50px;right:-25px;font-family:'elza',sans-serif;font-weight:600;font-size:290px;line-height:1.05;color:rgba(7,112,252,0.1);letter-spacing:-11.6px;z-index:1;">1</div>
             
-            <!-- Content -->
+            
             <div class="position-relative" style="z-index:2;max-width:281px;">
               <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#003040;">
                 <span style="font-weight:600;">Automated alerts</span>
@@ -1064,20 +1064,20 @@ get_header();
         </div>
       </div>
       
-      <!-- Feature Card 2 -->
+      
       <div class="col-12 col-md-6 col-xl-4 mb-4 mb-xl-0 d-flex justify-content-center">
         <div class="position-relative" style="width:494px;height:195px;max-width:100%;">
           
-          <!-- Blue Blur Shadow -->
+          
           <div class="position-absolute rounded" style="background:rgba(7,112,252,0.15);filter:blur(20px);width:451px;height:195px;top:17.5px;left:18px;"></div>
           
-          <!-- White Card -->
+          
           <div class="position-absolute d-flex align-items-start justify-content-start" style="background:#ffffff;width:494px;height:195px;top:0;left:0;max-width:100%;padding:54px 60px;overflow:hidden;">
             
-            <!-- Large Number Background -->
+            
             <div class="position-absolute" style="top:-50px;right:-25px;font-family:'elza',sans-serif;font-weight:600;font-size:290px;line-height:1.05;color:rgba(7,112,252,0.1);letter-spacing:-11.6px;z-index:1;">2</div>
             
-            <!-- Content -->
+            
             <div class="position-relative" style="z-index:2;max-width:281px;">
               <p class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:16px;line-height:1.4;color:#003040;">
                 <span>Certificates containing </span>
@@ -1090,20 +1090,20 @@ get_header();
         </div>
       </div>
       
-      <!-- Feature Card 3 -->
+      
       <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
         <div class="position-relative" style="width:494px;height:195px;max-width:100%;">
           
-          <!-- Blue Blur Shadow -->
+          
           <div class="position-absolute rounded" style="background:rgba(7,112,252,0.15);filter:blur(20px);width:451px;height:195px;top:17.25px;left:18px;"></div>
           
-          <!-- White Card -->
+          
           <div class="position-absolute d-flex align-items-start justify-content-start" style="background:#ffffff;width:494px;height:195px;top:0;left:0;max-width:100%;padding:54px 60px;overflow:hidden;">
             
-            <!-- Large Number Background -->
+            
             <div class="position-absolute" style="top:-50px;right:-25px;font-family:'elza',sans-serif;font-weight:600;font-size:290px;line-height:1.05;color:rgba(7,112,252,0.1);letter-spacing:-11.6px;z-index:1;">3</div>
             
-            <!-- Content -->
+            
             <div class="position-relative" style="z-index:2;max-width:229px;">
               <p class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:16px;line-height:1.4;color:#003040;">
                 <span>Custom data </span>
@@ -1118,7 +1118,7 @@ get_header();
       
     </div>
     
-    <!-- CTA Button -->
+    
     <div class="row justify-content-center">
       <div class="col-auto">
         <button class="btn d-inline-flex align-items-center justify-content-center text-nowrap animate-fade-up" style="background:#0770fc;padding:14px 22px;border:none;border-radius:0;font-family:'elza',sans-serif;font-weight:600;font-size:14px;line-height:1.4;color:#ffffff;letter-spacing:-0.35px;">
@@ -1130,15 +1130,15 @@ get_header();
   </div>
 </section>
 
-<!-- Customer Love Section -->
+
 <section class="customer-love-section position-relative pb-0 w-100" style="padding:0 0 120px 0;">
   <div class="container py-md-4" style="max-width:1500px;">
     <div class="row align-items-center">
       
-      <!-- Image Column -->
+      
       <div class="col-12 col-lg-6 mb-4 mb-lg-0">
         <div class="position-relative pe-md-3" style=";">
-          <!-- Image Container -->
+          
           <div class="position-relative w-100 overflow-hidden rounded" style="height:517px;background:rgba(0,0,0,0.06);">
             <img src="<?= get_stylesheet_directory_uri(); ?>/assets/5ae7743a36d6d69dd9d50d08d1fbd394acd0a828.png" 
                  alt="Professional calibration specialist in high-vis vest using tablet in industrial facility" 
@@ -1148,18 +1148,18 @@ get_header();
         </div>
       </div>
       
-      <!-- Text Column -->
+      
       <div class="col-12 col-lg-6">
         <div class="position-relative" style="padding:20px ;">
           
-          <!-- Title -->
+          
           <div class="mb-5">
             <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">
               Our customers love the company as much as they love the product
             </h2>
           </div>
           
-          <!-- Content -->
+          
           <div style="" class="pe-md-5">
             <p class="mb-4" style="font-family:'elza',sans-serif;font-weight:400;font-size:16px;line-height:1.4;color:#1C5263;">
               Our exceptional customer care and can-do attitude set us apart in the industry. As the calibration industry authority, we have full-time metrologists on staff with over 150 years combined industry experience for software development and improvement, demonstrating our commitment to the craft of measurement-driven workflows.
@@ -1177,40 +1177,40 @@ get_header();
   </div>
 </section>
 
-<!-- Testimonials Section -->
+
 <section class="testimonials-section position-relative w-100" style="padding:80px 0;">
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Swiper Container -->
+    
     <div class="testimonialsSwiper swiper position-relative animate-fade-up">
       <div class="swiper-wrapper">
         
-        <!-- Slide 1 -->
+        
         <div class="swiper-slide">
           <div class="d-flex flex-column align-items-center justify-content-center" style="padding:40px 0;">
             
-            <!-- Testimonial Card Container -->
+            
             <div class="position-relative d-flex align-items-center justify-content-center testimonial-card-container">
               
-              <!-- Blur Shadow -->
+              
               <div class="position-absolute rounded testimonial-shadow" style="background:rgba(7,112,252,0.15);filter:blur(20px);height:365px;top:10px;left:50%;transform:translateX(-50%);"></div>
               
-              <!-- White Testimonial Card -->
+              
               <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-center testimonial-card" style="height:361px;z-index:10;">
                 
-                <!-- Quote -->
+                
                 <div class="text-center mb-4 mb-md-5" style="max-width:698px;width:100%;">
                   <h3 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:36px;line-height:1.05;color:#003040;letter-spacing:-1.44px;">
                     "A quote for<br>emphasis and breaking up content."
                   </h3>
                 </div>
                 
-                <!-- Author -->
+                
                 <div class="d-flex align-items-center gap-3">
-                  <!-- Avatar -->
+                  
                   <div class="rounded" style="width:64px;height:64px;background:#173758;"></div>
                   
-                  <!-- Author Info -->
+                  
                   <div>
                     <div class="mb-1">
                       <h4 class="m-0" style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;line-height:1;color:#003040;">
@@ -1230,32 +1230,32 @@ get_header();
           </div>
         </div>
         
-        <!-- Slide 2 -->
+        
         <div class="swiper-slide">
           <div class="d-flex flex-column align-items-center justify-content-center" style="padding:40px 0;">
             
-            <!-- Testimonial Card Container -->
+            
             <div class="position-relative d-flex align-items-center justify-content-center testimonial-card-container">
               
-              <!-- Blur Shadow -->
+              
               <div class="position-absolute rounded testimonial-shadow" style="background:rgba(7,112,252,0.15);filter:blur(20px);height:365px;top:10px;left:50%;transform:translateX(-50%);"></div>
               
-              <!-- White Testimonial Card -->
+              
               <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-center testimonial-card" style="height:361px;z-index:10;">
                 
-                <!-- Quote -->
+                
                 <div class="text-center mb-4 mb-md-5" style="max-width:698px;width:100%;">
                   <h3 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:36px;line-height:1.05;color:#003040;letter-spacing:-1.44px;">
                     "IndySoft transformed our calibration workflow and improved our efficiency by 300%."
                   </h3>
                 </div>
                 
-                <!-- Author -->
+                
                 <div class="d-flex align-items-center gap-3">
-                  <!-- Avatar -->
+                  
                   <div class="rounded" style="width:64px;height:64px;background:#173758;"></div>
                   
-                  <!-- Author Info -->
+                  
                   <div>
                     <div class="mb-1">
                       <h4 class="m-0" style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;line-height:1;color:#003040;">
@@ -1275,32 +1275,32 @@ get_header();
           </div>
         </div>
         
-        <!-- Slide 3 -->
+        
         <div class="swiper-slide">
           <div class="d-flex flex-column align-items-center justify-content-center" style="padding:40px 0;">
             
-            <!-- Testimonial Card Container -->
+            
             <div class="position-relative d-flex align-items-center justify-content-center testimonial-card-container">
               
-              <!-- Blur Shadow -->
+              
               <div class="position-absolute rounded testimonial-shadow" style="background:rgba(7,112,252,0.15);filter:blur(20px);height:365px;top:10px;left:50%;transform:translateX(-50%);"></div>
               
-              <!-- White Testimonial Card -->
+              
               <div class="position-relative bg-white d-flex flex-column align-items-center justify-content-center testimonial-card" style="height:361px;z-index:10;">
                 
-                <!-- Quote -->
+                
                 <div class="text-center mb-4 mb-md-5" style="max-width:698px;width:100%;">
                   <h3 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:36px;line-height:1.05;color:#003040;letter-spacing:-1.44px;">
                     "The support team is incredible - they helped us optimize our entire measurement process."
                   </h3>
                 </div>
                 
-                <!-- Author -->
+                
                 <div class="d-flex align-items-center gap-3">
-                  <!-- Avatar -->
+                  
                   <div class="rounded" style="width:64px;height:64px;background:#173758;"></div>
                   
-                  <!-- Author Info -->
+                  
                   <div>
                     <div class="mb-1">
                       <h4 class="m-0" style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;line-height:1;color:#003040;">
@@ -1322,7 +1322,7 @@ get_header();
         
       </div>
       
-      <!-- Navigation -->
+      
       <div class="d-flex align-items-center justify-content-center gap-2 mt-4">
         <div class="swiper-button-prev-testimonials cursor-pointer d-flex align-items-center justify-content-center" style="width:40px;height:40px;">
           <img src="<?= get_stylesheet_directory_uri(); ?>/assets/1585302320ae006600fba9c2f20f09f632bd5f37.svg" 
@@ -1342,31 +1342,31 @@ get_header();
 
 
 
-<!-- CTA Solutions Section -->
+
 <section class="cta-solutions-section position-relative pt-0 w-100 animate-fade-up" style="padding:100px 0 0 0;">
   <div class="container pt-md-4" style="max-width:1500px;">
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <!-- CTA Card -->
+        
         <div class="d-flex flex-column align-items-center justify-content-center text-center" style="background:#173758;padding:80px 40px;min-height:300px;border-radius:8px 8px 0 0;">
           
-          <!-- Headline -->
+          
           <div class="mb-5">
             <h2 class="m-0 text-white" style="font-family:'elza',sans-serif;font-weight:600;font-size:48px;line-height:1.1;max-width:800px;">
               Find out which IndySoft solutions are right for you
             </h2>
           </div>
           
-          <!-- CTA Buttons -->
+          
           <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 animate-fade-up">
             
-            <!-- For Calibration Labs Button -->
+            
             <button class="btn d-inline-flex align-items-center justify-content-center text-nowrap animate-fade-left" style="background:#ffffff;padding:14px 22px;border:none;border-radius:0;font-family:'elza',sans-serif;font-weight:600;font-size:14px;line-height:1.4;color:#0770fc;letter-spacing:-0.35px;min-width:180px;">
               For Calibration Labs
             </button>
             
-            <!-- For Internal Labs Button -->
+            
             <button class="btn d-inline-flex align-items-center justify-content-center text-nowrap animate-fade-right" style="background:transparent;padding:14px 22px;border:2px solid #ffffff;border-radius:0;font-family:'elza',sans-serif;font-weight:600;font-size:14px;line-height:1.4;color:#ffffff;letter-spacing:-0.35px;min-width:180px;">
               For Internal Labs
             </button>
@@ -1380,17 +1380,17 @@ get_header();
   </div>
 </section>
 
-<!-- Scoped CSS -->
 
-<!-- GSAP CDN -->
+
+
 <script src="https://web-assets-acwebdev.s3.amazonaws.com/gsap/minified/gsap.min.js"></script>
 <script src="https://web-assets-acwebdev.s3.amazonaws.com/gsap/minified/ScrollTrigger.min.js"></script>
 <script src="https://web-assets-acwebdev.s3.amazonaws.com/gsap/minified/Flip.min.js"></script>
 
-<!-- Swiper JS -->
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Swiper Initialization -->
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const swiper = new Swiper('.integrationsSwiper', {

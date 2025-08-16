@@ -291,7 +291,7 @@ header {
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-  <!-- Skip Links -->
+  
   <a class="skip-link visually-hidden-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'indysoft' ); ?></a>
   <a class="skip-link visually-hidden-focusable" href="#footer"><?php esc_html_e( 'Skip to footer', 'indysoft' ); ?></a>
 
@@ -301,7 +301,7 @@ header {
     <div class="container-fluid" style="max-width:1500px;">
       <div class="row align-items-center ">
         <div class="col-6 col-lg-3">
-          <!-- Responsive Logo -->
+          
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-container d-block position-relative overflow-hidden" aria-label="<?php bloginfo('name'); ?>">
             <svg class="w-100 h-100" viewBox="0 0 207 42" fill="none" xmlns="http://www.w3.org/2000/svg" style="position:absolute; inset:0;">
               <image href="https://web-assets-acwebdev.s3.amazonaws.com/indylogo.svg" width="207" height="42"/>
@@ -310,7 +310,7 @@ header {
         </div>
 
         <div class="col-6 d-none d-xl-block">
-          <!-- Main Navigation for desktop -->
+          
           <nav class="indy-nav-items d-flex justify-content-center">
             <div class="d-flex align-items-center" style="backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); background: rgba(255,255,255,0.4); border-radius: 100px; gap:27px; padding:20px 24px; overflow:visible;">
               <?php
@@ -328,20 +328,20 @@ header {
         </div>
 
         <div class="col-6 col-lg-3">
-          <!-- Header Actions -->
+          
           <div class="d-flex align-items-center justify-content-end gap-2 position-relative">
-            <!-- Customer Portal Button -->
+            
             <a href="https://portal.indysoft.com/login" class="portal-btn d-inline-flex align-items-center gap-2 px-3 py-2 border">
               <span><?php esc_html_e('Customer Portal','indysoft'); ?></span>
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/0b80fa8e9709eac7bd47bd726e6c5b2d824f9afa.svg" width="6" height="6" alt="Arrow" style="flex-shrink: 0;">
             </a>
 
-            <!-- Mobile Menu Toggler -->
+            
             <button id="menu-toggle" class="btn d-xl-none p-2 hamburger" type="button" onclick="toggleFloatingMenu()" aria-label="<?php esc_attr_e( 'Toggle main menu', 'indysoft' ); ?>">
               <span></span><span></span><span></span>
             </button>
 
-            <!-- Floating Mobile Menu -->
+            
             <div id="floating-menu" class="floating-menu d-xl-none">
               <?php
                 wp_nav_menu(array(
@@ -353,7 +353,7 @@ header {
                   'walker'         => class_exists('bootstrap_5_wp_nav_menu_walker') ? new bootstrap_5_wp_nav_menu_walker() : ''
                 ));
               ?>
-              <!-- Customer Portal (mobile) -->
+              
               <a href="https://portal.indysoft.com/login" class="nav-link d-flex align-items-center justify-content-between" style="font-family:'elza',sans-serif; font-weight:600; font-size:14px; color:#0770fc; letter-spacing:-0.35px; text-decoration:none; margin-top: 8px; border-top: 1px solid rgba(0,48,64,0.1);">
                 <span><?php esc_html_e('Customer Portal','indysoft'); ?></span>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/0b80fa8e9709eac7bd47bd726e6c5b2d824f9afa.svg" width="6" height="6" alt="Arrow" style="flex-shrink: 0;">
@@ -364,7 +364,7 @@ header {
       </div>
     </div>
 
-    <!-- JavaScript for floating menu -->
+    
     <script>
       function toggleFloatingMenu() {
         const menu = document.getElementById('floating-menu');
@@ -404,7 +404,7 @@ header {
       });
     </script>
 
-  </header><!-- #masthead -->
+  </header>
 
   <?php do_action( 'bootscore_after_masthead' ); ?>
 

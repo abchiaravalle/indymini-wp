@@ -10,12 +10,12 @@
 get_header();
 ?>
 
-<!-- Hero Section -->
+
 <section class="solutions-sub-hero py-5">
   <div class="container py-md-4">
     <div class="row align-items-center">
       
-      <!-- Text Column -->
+      
       <div class="col-12 col-md-8 mb-4 mb-md-0 hero-text">
         <h1>
           Where Compliance Meets Confidence
@@ -39,7 +39,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Image Column -->
+      
       <div class="col-12 col-md-4 position-relative image-col">
         <div class="position-relative">
           <div class="position-absolute blue-blur"></div>
@@ -53,7 +53,7 @@ get_header();
   </div>
 </section>
 
-<!-- Key Features Section -->
+
 <section class="solutions-sub-key-features py-5">
   <div class="container py-md-4">
     
@@ -68,22 +68,22 @@ get_header();
       </div>
     </div>
     
-    <!-- Features Content -->
+    
     <div class="row align-items-center pb-40">
       
-      <!-- Dashboard Image -->
+      
       <div class="col-12 col-md-6 mb-5 mb-md-0">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/dad461e8d5bbce0d2b0228920c7d1721bb23eaf1.png" 
              alt="IndySoft Features Dashboard" 
              class="img-fluid image-max-645">
       </div>
       
-      <!-- Features Accordion -->
+      
       <div class="col-12 col-md-6">
         <div style="max-width:736px;">
           <div class="accordion custom-accordion" id="featuresAccordion">
             
-            <!-- Feature Item 1 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading1">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
@@ -106,7 +106,7 @@ get_header();
               </div>
             </div>
 
-            <!-- Feature Item 2 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading2">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
@@ -129,7 +129,7 @@ get_header();
               </div>
             </div>
 
-            <!-- Feature Item 3 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading3">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
@@ -152,7 +152,7 @@ get_header();
               </div>
             </div>
 
-            <!-- Feature Item 4 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading4">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
@@ -175,7 +175,7 @@ get_header();
               </div>
             </div>
 
-            <!-- Feature Item 5 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading5">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
@@ -198,7 +198,7 @@ get_header();
               </div>
             </div>
 
-            <!-- Feature Item 6 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading6">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
@@ -221,7 +221,7 @@ get_header();
               </div>
             </div>
 
-            <!-- Feature Item 7 -->
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading7">
                 <button class="accordion-button collapsed d-flex align-items-center justify-content-between py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
@@ -253,7 +253,7 @@ get_header();
   </div>
 </section>
 
-<!-- Benefits Section -->
+
 <section class="solutions-sub-benefits py-5">
   <div class="container py-md-4">
     
@@ -268,10 +268,10 @@ get_header();
       </div>
     </div>
     
-    <!-- Benefits Grid -->
+    
     <div class="row g-4 pb-120">
       
-      <!-- Benefit Card 1 -->
+      
       <div class="col-12 col-md-6 col-lg-4">
         <div class="position-relative h-100">
           <div class="position-absolute card-blur"></div>
@@ -288,7 +288,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Benefit Card 2 -->
+      
       <div class="col-12 col-md-6 col-lg-4">
         <div class="position-relative h-100">
           <div class="position-absolute card-blur"></div>
@@ -305,7 +305,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Benefit Card 3 -->
+      
       <div class="col-12 col-md-6 col-lg-4">
         <div class="position-relative h-100">
           <div class="position-absolute card-blur"></div>
@@ -322,7 +322,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Benefit Card 4 -->
+      
       <div class="col-12 col-md-6 col-lg-4">
         <div class="position-relative h-100">
           <div class="position-absolute card-blur"></div>
@@ -339,7 +339,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Benefit Card 5 -->
+      
       <div class="col-12 col-md-6 col-lg-4">
         <div class="position-relative h-100">
           <div class="position-absolute card-blur"></div>
@@ -356,7 +356,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Benefit Card 6 -->
+      
       <div class="col-12 col-md-6 col-lg-4">
         <div class="position-relative h-100">
           <div class="position-absolute card-blur"></div>
@@ -376,7 +376,7 @@ get_header();
   </div>
 </section>
 
-<!-- Use Cases Section -->
+
 <section class="py-5" style="background:#ffffff;">
   <div class="container py-md-4">
     
@@ -391,10 +391,10 @@ get_header();
       </div>
     </div>
     
-    <!-- Use Cases Cards -->
+    
     <div class="row g-3" style="padding-bottom:60px;">
       
-      <!-- Calibration Labs Card -->
+      
       <div class="col-12 col-lg-4 mb-4 mb-lg-0">
         <div class="position-relative">
           <div class="position-absolute use-case-blur"></div>
@@ -412,7 +412,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Life Sciences Card -->
+      
       <div class="col-12 col-lg-4 mb-4 mb-lg-0">
         <div class="position-relative">
           <div class="position-absolute use-case-blur"></div>
@@ -430,7 +430,7 @@ get_header();
         </div>
       </div>
       
-      <!-- Manufacturing Card -->
+      
       <div class="col-12 col-lg-4">
         <div class="position-relative">
           <div class="position-absolute use-case-blur"></div>
@@ -452,16 +452,16 @@ get_header();
   </div>
 </section>
 
-<!-- CTA Solutions Section -->
+
 <section class="cta-solutions-section pb-0 position-relative w-100 animate-fade-up">
   <div class="container pt-md-4">
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <!-- CTA Card -->
+        
         <div class=" balance d-flex flex-column align-items-center justify-content-center text-center cta-card">
           
-          <!-- Headline -->
+          
           <div class="mb-3">
             <h2 class="m-0 text-white">
             Ensure every calibration counts
@@ -474,7 +474,7 @@ get_header();
                 <p class=" mb-3">
                 Request a Demo Today to see how IndySoft can makeyour calibration process simpler, smarter, and audit-proof.                </p>
           
-          <!-- CTA Buttons -->
+          
           <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 animate-fade-up">
             
             <button class="btn btn-brand-secondary">
