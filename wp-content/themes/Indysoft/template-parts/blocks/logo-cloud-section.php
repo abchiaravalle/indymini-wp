@@ -26,7 +26,7 @@ $description_color  = '#1C5263';
 <section class="logo-cloud-section py-5 position-relative w-100 d-flex justify-content-center balance" >
   <div class="container py-md-4" style="max-width:1500px;">
     
-    <!-- Text Content -->
+    
     <div class="row justify-content-center">
       <div class="col-12" style="">
         <div class="text-center mb-5">
@@ -36,7 +36,7 @@ $description_color  = '#1C5263';
       </div>
     </div>
 
-    <!-- Logo Row -->
+    
     <div class="row justify-content-center">
       <div class="col-12" style="max-width:1500px;">
         <div class="d-flex flex-wrap justify-content-center align-items-center gap-4" style="padding:40px 0;">

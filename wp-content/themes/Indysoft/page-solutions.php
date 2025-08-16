@@ -17,18 +17,18 @@ get_header();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title('|', true, 'right'); ?></title>
     
-    <!-- Swiper.js CDN -->
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <?php wp_head(); ?>
 </head>
 
-<!-- Solutions Hero Section -->
+
 <section class="solutions-hero position-relative w-100 d-flex flex-column align-items-center py-5">
   <div class="container">
     
-    <!-- Title Section -->
+    
     <div class="row justify-content-center text-center mb-5">
       <div class="col-12">
         <h1 class="m-0 mb-4">
@@ -51,20 +51,20 @@ get_header();
   <div class="container">
     <div class="row">
       
-      <!-- Left Side - Content -->
+      
       <div class="col-12 col-lg-5 d-flex flex-column justify-content-start px-4">
         
-        <!-- Main Headline -->
+        
         <div class="mb-5">
           <h2 class="m-0">
             Explore our specialized solutions
           </h2>
         </div>
 
-        <!-- Feature List -->
+        
         <div class="features-list mb-5">
           
-          <!-- Calibration - Active -->
+          
           <div class="feature-item d-flex align-items-center justify-content-between py-3 border-bottom hover-trigger active" 
                data-category="calibration">
             <div class="d-flex align-items-center">
@@ -86,7 +86,7 @@ get_header();
               <span>Calibration</span>
             </div>
 
-            <!-- Custom Navigation Arrows -->
+            
             <div class="custom-navigation">
               <button class="swiper-button-prev-custom">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +106,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Tooling -->
+          
           <div class="feature-item d-flex align-items-center justify-content-between py-3 border-bottom hover-trigger" 
                data-category="tooling">
             <div class="d-flex align-items-center">
@@ -120,7 +120,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Maintenance Management -->
+          
           <div class="feature-item d-flex align-items-center justify-content-between py-3 border-bottom hover-trigger" 
                data-category="maintenance">
             <div class="d-flex align-items-center">
@@ -134,7 +134,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Asset Management -->
+          
           <div class="feature-item d-flex align-items-center justify-content-between py-3 hover-trigger" 
                data-category="asset">
             <div class="d-flex align-items-center">
@@ -150,11 +150,11 @@ get_header();
 
         </div>
 
-        <!-- Mobile Carousel (Hidden on Desktop) -->
+        
         <div class="mobile-carousel d-block d-md-none mb-5">
           <div class="swiper mobile-solutions-swiper">
             <div class="swiper-wrapper">
-              <!-- Slide 1: Calibration -->
+              
               <div class="swiper-slide">
                 <div class="mobile-carousel-item">
                   <div class="d-flex align-items-center justify-content-center py-3 mb-4 slide-header position-relative">
@@ -176,7 +176,7 @@ get_header();
                     </div>
                     <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Calibration</span>
                     
-                    <!-- Navigation buttons for this slide -->
+                    
                     <button class="swiper-button-prev-custom" style="background: none; border: none; pointer-events: auto; padding: 0; position: absolute; left: -60px; top: 50%; transform: translateY(-50%); z-index: 20;">
                       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="40" height="40" rx="10" transform="matrix(-1 0 0 1 40 0)" fill="white"/>
@@ -191,19 +191,19 @@ get_header();
                     </button>
                   </div>
                   
-                  <!-- Software Screenshot -->
+                  
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
-                      <!-- Blue blur background -->
+                      
                       <div class="solutions-blur-bg"></div>
-                      <!-- Main image -->
+                      
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
                            class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
-                  <!-- Content Below Image -->
+                  
                   <div class="text-center">
                     <h3 style="font-family:'elza',sans-serif;font-weight:600;font-size:33px;line-height:1.05;color:#003040;letter-spacing:-1.33px;margin-bottom:22px;">
                       Integrate with all your tools
@@ -218,7 +218,7 @@ get_header();
                 </div>
               </div>
               
-              <!-- Slide 2: Asset Management -->
+              
               <div class="swiper-slide">
                 <div class="mobile-carousel-item">
                   <div class="d-flex align-items-center justify-content-center py-3 mb-4 slide-header position-relative">
@@ -236,7 +236,7 @@ get_header();
                     </div>
                     <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Asset Management</span>
                     
-                    <!-- Navigation buttons for this slide -->
+                    
                     <button class="swiper-button-prev-custom" style="background: none; border: none; pointer-events: auto; padding: 0; position: absolute; left: -60px; top: 50%; transform: translateY(-50%); z-index: 20;">
                       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="40" height="40" rx="10" transform="matrix(-1 0 0 1 40 0)" fill="white"/>
@@ -251,19 +251,19 @@ get_header();
                     </button>
                   </div>
                   
-                  <!-- Software Screenshot -->
+                  
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
-                      <!-- Blue blur background -->
+                      
                       <div class="solutions-blur-bg"></div>
-                      <!-- Main image -->
+                      
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
                            class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
-                  <!-- Content Below Image -->
+                  
                   <div class="text-center">
                     <h3 style="font-family:'elza',sans-serif;font-weight:600;font-size:33px;line-height:1.05;color:#003040;letter-spacing:-1.33px;margin-bottom:22px;">
                       Integrate with all your tools
@@ -278,7 +278,7 @@ get_header();
                 </div>
               </div>
               
-              <!-- Slide 3: Quality Control -->
+              
               <div class="swiper-slide">
                 <div class="mobile-carousel-item">
                   <div class="d-flex align-items-center justify-content-center py-3 mb-4 slide-header position-relative">
@@ -297,7 +297,7 @@ get_header();
                     </div>
                     <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Quality Control</span>
                     
-                    <!-- Navigation buttons for this slide -->
+                    
                     <button class="swiper-button-prev-custom" style="background: none; border: none; pointer-events: auto; padding: 0; position: absolute; left: -60px; top: 50%; transform: translateY(-50%); z-index: 20;">
                       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="40" height="40" rx="10" transform="matrix(-1 0 0 1 40 0)" fill="white"/>
@@ -312,19 +312,19 @@ get_header();
                     </button>
                   </div>
                   
-                  <!-- Software Screenshot -->
+                  
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
-                      <!-- Blue blur background -->
+                      
                       <div class="solutions-blur-bg"></div>
-                      <!-- Main image -->
+                      
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
                            class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
-                  <!-- Content Below Image -->
+                  
                   <div class="text-center">
                     <h3 style="font-family:'elza',sans-serif;font-weight:600;font-size:33px;line-height:1.05;color:#003040;letter-spacing:-1.33px;margin-bottom:22px;">
                       Integrate with all your tools
@@ -339,7 +339,7 @@ get_header();
                 </div>
               </div>
               
-              <!-- Slide 4: Predictive Maintenance -->
+              
               <div class="swiper-slide">
                 <div class="mobile-carousel-item">
                   <div class="d-flex align-items-center justify-content-center py-3 mb-4 slide-header position-relative">
@@ -357,7 +357,7 @@ get_header();
                     </div>
                     <span style="font-family:'elza',sans-serif;font-weight:500;font-size:18px;color:#003040;">Predictive Maintenance</span>
                     
-                    <!-- Navigation buttons for this slide -->
+                    
                     <button class="swiper-button-next-custom" style="background: none; border: none; pointer-events: auto; padding: 0; position: absolute; right: -60px; top: 50%; transform: translateY(-50%); z-index: 20;">
                       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="40" height="40" rx="10" fill="white"/>
@@ -372,19 +372,19 @@ get_header();
                     </button>
                   </div>
                   
-                  <!-- Software Screenshot -->
+                  
                   <div class="text-center mb-4">
                     <div class="position-relative" style="display: inline-block;">
-                      <!-- Blue blur background -->
+                      
                       <div class="solutions-blur-bg"></div>
-                      <!-- Main image -->
+                      
                       <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
                            alt="IndySoft Software Interface" 
                            class="img-fluid position-relative solutions-screenshot" />
                     </div>
                   </div>
 
-                  <!-- Content Below Image -->
+                  
                   <div class="text-center">
                     <h3 style="font-family:'elza',sans-serif;font-weight:600;font-size:33px;line-height:1.05;color:#003040;letter-spacing:-1.33px;margin-bottom:22px;">
                       Integrate with all your tools
@@ -404,7 +404,7 @@ get_header();
       
 
 
-        <!-- CTA Button (hidden on mobile) -->
+        
         <div class="cta-section d-none d-md-block">
           <button class="btn" style="background:#0770fc;color:#ffffff;border:none;border-radius:0;padding:14px 22px;font-family:'elza',sans-serif;font-weight:600;font-size:14px;letter-spacing:-0.35px;">
             Request a Demo Today
@@ -413,13 +413,13 @@ get_header();
 
       </div>
 
-      <!-- Spacing column -->
+      
       <div class="col-lg-1"></div>
 
-      <!-- Right Side - Image -->
+      
       <div class="col-12 col-lg-5 d-flex flex-column justify-content-center px-4 mt-4 mt-lg-0">
         
-        <!-- Software Screenshot -->
+        
         <div class="software-preview position-relative mb-4" id="software-image">
           <div class="screenshot-container position-relative" style="border-radius:8px;overflow:hidden;">
             <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
@@ -429,7 +429,7 @@ get_header();
           </div>
         </div>
 
-        <!-- Integration Info -->
+        
         <div class="integration-info">
           <h3 class="mb-3" style="font-family:'elza',sans-serif;font-weight:600;font-size:30px;line-height:1.05;color:#003040;letter-spacing:-1.2px;">
             Integrate with all your tools
@@ -450,19 +450,19 @@ get_header();
 
       </div>
 
-      <!-- Empty space column to match Figma layout -->
+      
       <div class="col-lg-1"></div>
 
     </div>
   </div>
 </section>
 
-<!-- Transforming Asset Management Section -->
+
 <section class="py-5" style="background: #ffffff; padding: 80px 0;">
   <div class="container pt-md-5" style="max-width:1600px;">
     <div class="row align-items-start">
       
-      <!-- Image Column -->
+      
       <div class="col-12 col-md-6 mb-4 mb-md-0">
         <img src="<?= get_stylesheet_directory_uri(); ?>/assets/fdf9ab5d9cd8e4d1bd79e0c22e0acc2c141ca003.png" 
              alt="Asset Management Visualization" 
@@ -470,7 +470,7 @@ get_header();
              style="height: auto; border-radius: 8px;" />
       </div>
       
-      <!-- Text Content Column -->
+      
       <div class="col-12 col-md-6 d-flex align-items-center">
         <div class="ps-md-4">
           <h2 class="mb-4 mt-3" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">
@@ -491,27 +491,27 @@ get_header();
   </div>
 </section>
 
-<!-- Why Leading Companies Choose IndySoft Section -->
+
 <section class="py-5" style="background: #ffffff; padding: 80px 0;">
   <div class="container py-md-4">
     <div class="row">
       <div class="col-12">
         
-        <!-- Main Heading -->
+        
         <div class="text-center mb-5" style="margin-bottom: 40px;">
           <h2 class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:60px;line-height:1;color:#003040;letter-spacing:-1.8px;">
             Why Leading Companies Choose IndySoft
           </h2>
         </div>
 
-        <!-- Features and Image Row -->
+        
         <div class="row mb-5">
           
-          <!-- Features List Column -->
+          
           <div class="col-12 col-md-6">
             <div class="features-list">
               
-              <!-- Feature 1: One platform, total control -->
+              
               <div class="feature-item d-flex align-items-start py-4" style="gap: 20px;">
                 <div class="feature-icon" style="width: 34px; height: 34px; flex-shrink: 0;">
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -529,7 +529,7 @@ get_header();
                 </div>
               </div>
 
-              <!-- Feature 2: Stay audit-ready, always -->
+              
               <div class="feature-item d-flex align-items-start py-4" style="gap: 20px;">
                 <div class="feature-icon" style="width: 35px; height: 35px; flex-shrink: 0;">
                 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -547,7 +547,7 @@ get_header();
                 </div>
               </div>
 
-              <!-- Feature 3: Seamless integrations -->
+              
               <div class="feature-item d-flex align-items-start py-4" style="gap: 20px;">
                 <div class="feature-icon" style="width: 35px; height: 35px; flex-shrink: 0;">
                 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -565,7 +565,7 @@ get_header();
                 </div>
               </div>
 
-              <!-- Feature 4: Industry-specific expertise -->
+              
               <div class="feature-item d-flex align-items-start py-4" style="gap: 20px;">
                 <div class="feature-icon" style="width: 34px; height: 34px; flex-shrink: 0;">
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -583,7 +583,7 @@ get_header();
                 </div>
               </div>
 
-              <!-- Feature 5: Real results -->
+              
               <div class="feature-item d-flex align-items-start py-4" style="gap: 20px;">
                 <div class="feature-icon" style="width: 34px; height: 34px; flex-shrink: 0;">
                 <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -604,7 +604,7 @@ get_header();
             </div>
           </div>
 
-          <!-- Image Column -->
+          
           <div class="col-12 col-md-6">
             <div class="text-center">
               <img src="<?= get_stylesheet_directory_uri(); ?>/assets/621704ff17e4be5569166167b7dcaa45f9adc650.png" 
@@ -616,13 +616,13 @@ get_header();
 
         </div>
 
-        <!-- Info Cards Row - Side by Side -->
+        
         <div class="row">
           
-          <!-- Card 1: Tailored for Regulated Industries -->
+          
           <div class="col-12 col-md-6 mb-4">
             <div class="bg-white rounded p-5" style="background: #ffffff !important; background-color: #ffffff !important; border-radius:8px; padding:60px 79px; min-height:313px; box-shadow: 0 10px 30px rgba(7,112,252,0.15);">
-              <!-- Card content -->
+              
               <div>
                 <h3 class="m-0 mb-3" style="text-align:center;font-family:'elza',sans-serif;font-weight:600;font-size:26px;line-height:1.1;color:#003040;letter-spacing:-0.52px;">
                   Tailored for Regulated Industries
@@ -634,10 +634,10 @@ get_header();
             </div>
           </div>
 
-          <!-- Card 2: Complete Lifecycle Asset Management -->
+          
           <div class="col-12 col-md-6 mb-4">
             <div class="bg-white rounded p-5" style="background: #ffffff !important; background-color: #ffffff !important; border-radius:8px; padding:60px 79px; min-height:313px; box-shadow: 0 10px 30px rgba(7,112,252,0.15);">
-              <!-- Card content -->
+              
               <div>
                 <h3 class="m-0 mb-3" style="text-align:center;font-family:'elza',sans-serif;font-weight:600;font-size:26px;line-height:1.1;color:#003040;letter-spacing:-0.52px;">
                   Complete Lifecycle Asset Management
@@ -711,23 +711,23 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<!-- Testimonials Section -->
+
 <section class="testimonials-section position-relative w-100">
   <div class="container">
     
-    <!-- Section Heading -->
+    
     <div class="text-center mb-5">
       <h2 class="m-0">
         What Our Customers Say
       </h2>
     </div>
     
-    <!-- Testimonial Card -->
+    
     <div class="d-flex justify-content-center mb-5">
       <div class="testimonial-card d-flex flex-column align-items-center justify-content-center p-5" 
            style="border:1px solid rgba(7,112,252,0.5);border-radius:0;width:100%;max-width:1500px;height:400px;box-shadow:none !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;">
         
-        <!-- Stars and Title -->
+        
         <div class="text-center mb-4">
           <div class="stars mb-3" style="height:33px;">
             <img src="<?= get_stylesheet_directory_uri(); ?>/assets/d38decdf8e7a8024c25aeb749a5d1639a26b74f2.svg" 
@@ -739,14 +739,14 @@ document.addEventListener('DOMContentLoaded', function() {
           </h3>
         </div>
 
-        <!-- Testimonial Quote -->
+        
         <div class="testimonial-quote text-center mb-4">
           <p class="m-0" style="font-family:'elza',sans-serif;font-weight:400;font-size:26px;line-height:1.3;color:#003040;letter-spacing:-0.52px;max-width:772px;">
             "IndySoft is absolutely the best calibration management software I have ever used! It's incredibly user friendly, straightforward, and packed with powerful customization features. IndySoft has streamlined calibration for me at two separate companies, helping me to pass through seven major calibration audits without a single finding."
           </p>
         </div>
 
-        <!-- Author Info -->
+        
         <div class="author-info text-center">
           <div class="author-name mb-1">
             <p class="m-0" style="font-family:'elza',sans-serif;font-weight:600;font-size:18px;line-height:1;color:#003040;">
@@ -762,9 +762,9 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
     
-    <!-- Navigation Controls -->
+    
     <div class="d-flex justify-content-center gap-3">
-      <!-- Previous Button -->
+      
       <button class="btn p-0 d-flex align-items-center justify-content-center" 
               style="background:none;border:none;width:40px;height:40px;cursor:pointer;transition:opacity 0.3s ease;"
               onmouseover="this.style.opacity='0.7'" 
@@ -774,7 +774,7 @@ document.addEventListener('DOMContentLoaded', function() {
              style="width:40px;height:40px;transform:rotate(180deg) scaleY(-1);object-fit:contain;" />
       </button>
 
-      <!-- Next Button -->
+      
       <button class="btn p-0 d-flex align-items-center justify-content-center" 
               style="background:none;border:none;width:40px;height:40px;cursor:pointer;transition:opacity 0.3s ease;"
               onmouseover="this.style.opacity='0.7'" 
@@ -788,23 +788,23 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </section>
 
-<!-- Ready to Take the Next Step CTA Section -->
+
 <section class="cta-section position-relative w-100">
   <div class="container d-none d-md-block">
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <!-- CTA Content -->
+        
         <div class="cta-content text-center">
           
-          <!-- Main Headline -->
+          
           <div class="cta-headline mb-4">
             <h2 class="m-0">
               Take Control of Your Assets Today
             </h2>
           </div>
 
-          <!-- Subtitle -->
+          
           <div class="cta-subtitle mb-5">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-8">
@@ -816,7 +816,7 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
 
-          <!-- CTA Button -->
+          
           <div class="cta-button">
             <button class="btn">
               Request a Demo
@@ -829,22 +829,22 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 
-  <!-- Mobile Full Width CTA -->
+  
   <div class="d-block d-md-none w-100">
     <div class="row justify-content-center m-0">
       <div class="col-12 p-0">
         
-        <!-- CTA Content -->
+        
         <div class="cta-content text-center">
           
-          <!-- Main Headline -->
+          
           <div class="cta-headline mb-4">
             <h2 class="m-0">
               Take Control of Your Assets Today
             </h2>
           </div>
 
-          <!-- Subtitle -->
+          
           <div class="cta-subtitle mb-5">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-8">
@@ -856,7 +856,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
           </div>
 
-          <!-- CTA Button -->
+          
           <div class="cta-button">
             <button class="btn">
               Request a Demo

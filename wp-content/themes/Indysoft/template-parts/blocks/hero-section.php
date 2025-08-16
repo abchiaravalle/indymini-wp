@@ -21,7 +21,7 @@ $button_text       = '#f4f4f4';
 $blur_bg           = 'rgba(7,112,252,0.15)';
 ?>
 <section class="hero-section position-relative w-100" style="padding:120px 0;background:#fff;">
-  <!-- Blue blur background -->
+  
   <div class="position-absolute" style="background:rgba(7,112,252,0.15);filter:blur(20px);width:667px;height:485px;left:816px;top:32px;border-radius:8px;"></div>
 
   <div class="container" style="max-width:1500px;">
@@ -37,19 +37,19 @@ $blur_bg           = 'rgba(7,112,252,0.15)';
         </a>
       </div>
 
-      <!-- Right Image with Data Points -->
+      
       <div class="col-12 col-lg-6 d-flex justify-content-lg-end hero-img-wrapper position-relative animate-fade-left">
         <div class="position-relative" style="width:700px;height:488px;">
-          <!-- Main Image -->
+          
           <img src="<?= esc_url($inner_image); ?>" alt="Hero dashboard interface" class="img-fluid" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" />
           
-          <!-- Backdrop Blur Elements -->
+          
           <div class="position-absolute" style="backdrop-filter:blur(2px);background:rgba(255,255,255,0.4);width:697px;height:125px;top:180px;left:0;"></div>
           <div class="position-absolute" style="backdrop-filter:blur(2px);background:rgba(255,255,255,0.4);width:697px;height:26px;top:320px;left:0;"></div>
           <div class="position-absolute" style="backdrop-filter:blur(2px);background:rgba(255,255,255,0.4);width:697px;height:69px;top:360px;left:0;"></div>
           <div class="position-absolute" style="backdrop-filter:blur(2px);background:rgba(255,255,255,0.4);width:697px;height:23px;top:440px;left:0;"></div>
           
-          <!-- Data Point 1 - Left Side -->
+          
           <div class="position-absolute" style="left:-81px;top:262px;">
             <div class="position-absolute rounded" style="background:rgba(7,112,252,0.2);width:204px;height:61px;box-shadow:10px 10px 30px 0px rgba(0,30,130,0.1);border-radius:5000%;"></div>
             <div class="position-absolute" style="left:29px;top:19px;width:23.899px;height:23.899px;">
@@ -60,7 +60,7 @@ $blur_bg           = 'rgba(7,112,252,0.15)';
             </div>
           </div>
           
-          <!-- Data Point 2 - Right Side -->
+          
           <div class="position-absolute" style="left:483px;top:290px;">
             <div class="position-absolute rounded" style="background:rgba(7,112,252,0.2);width:233px;height:61px;box-shadow:10px 10px 30px 0px rgba(0,30,130,0.1);border-radius:5000%;"></div>
             <div class="position-absolute" style="left:29px;top:19px;width:23.899px;height:23.899px;">
@@ -73,11 +73,11 @@ $blur_bg           = 'rgba(7,112,252,0.15)';
           
         </div>
       </div>
-    </div><!-- .row -->
+    </div>
   </div>
 </section>
 
-<!-- Scoped CSS for hero responsive behavior -->
+
 <style>
   .hero-section {
     overflow: hidden; /* Ensure data points don't cause horizontal scroll */
@@ -132,7 +132,7 @@ $blur_bg           = 'rgba(7,112,252,0.15)';
   }
 </style>
 
-<!-- GSAP Animation Script for Hero Section -->
+
 <script>
 // Hero section animations (if GSAP is available)
 if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
